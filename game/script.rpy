@@ -1,4 +1,4 @@
-﻿# Yesoidos 0.4a2
+﻿# Yesoidos v0.4a2
 # script.rpy
 #
 # All rights reserved.
