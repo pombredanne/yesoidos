@@ -1,8 +1,8 @@
-# Yesoidos
-# chapter1.rpy
+# Yesoidos v0.4a3
+# characters.rpy
 #
-# All rights reserved.
 # Literary content Copyright (c) 2010 by Musashi <astrochess@gmail.com>
+# All rights reserved.
 #
 # This file is part of Yesoidos.
 #
@@ -18,7 +18,7 @@
 #
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-	
+
 init:    
     # Set up Chapter 1 characters
     $ me = Character('Binyomin', color="#6688ff")
@@ -37,3 +37,4 @@ init:
     $ sr = storyChar.copy("Sara")
     $ yb = storyChar.copy("Yisroel")
     $ sz = storyChar.copy("Shlomo Zalmen")
+    

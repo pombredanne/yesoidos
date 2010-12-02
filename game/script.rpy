@@ -1,8 +1,8 @@
-﻿# Yesoidos v0.4a2
+﻿# Yesoidos v0.4a3
 # script.rpy
 #
-# All rights reserved.
 # Literary content Copyright (c) 2010 by Musashi <astrochess@gmail.com>
+# All rights reserved.
 #
 # This file is part of Yesoidos.
 #

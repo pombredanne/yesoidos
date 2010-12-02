@@ -1,8 +1,8 @@
-# Yesoidos
+# Yesoidos v0.4a3
 # chapter1.rpy
 #
-# All rights reserved.
 # Literary content Copyright (c) 2010 by Musashi <astrochess@gmail.com>
+# All rights reserved.
 #
 # This file is part of Yesoidos.
 #
