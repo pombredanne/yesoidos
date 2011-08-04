@@ -9,7 +9,7 @@ init -1:
     $ from sections import bookText, chapterText
     
     # set a nicer italic font
-    $ config.font_replacement_map["DejaVuSans.ttf", False, True] = ("DejaVuSans-Oblique.ttf", False, False)
+    #$ config.font_replacement_map["DejaVuSans.ttf", False, True] = ("DejaVuSans-Oblique.ttf", False, False)
 
 label start:
     call chapter1 from _call_chapter1

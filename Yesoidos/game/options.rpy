@@ -17,8 +17,8 @@ init -1 python:
 
     ## These control the width and height of the screen.
 
-    config.screen_width = 800
-    config.screen_height = 600
+    config.screen_width = 1024
+    config.screen_height = 768
 
     ## This controls the title of the window, when Ren'Py is
     ## running in a window.
@@ -149,11 +149,14 @@ init -1 python:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "WorstveldMod.ttf"
+    config.font_replacement_map["WorstveldMod.otf", False, True] = ("WorstveldSlingOblique.ttf", False, False)
+    config.font_replacement_map["WorstveldMod.otf", True, False] = ("Worstveld Bold.otf", False, False)
+    config.font_replacement_map["WorstveldMod.otf", True, True] = ("Worstveld Bold Oblique.otf", False, False)
 
     ## The default size of text.
 
-    # style.default.size = 22
+    style.default.size = 36
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -173,7 +176,7 @@ init -1 python:
 
     ## Set this to False if the game does not have voicing.
 
-    config.has_voice = True
+    config.has_voice = False
 
     ## Sounds that are used when button and imagemaps are clicked.
 

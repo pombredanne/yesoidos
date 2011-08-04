@@ -2,10 +2,10 @@ import renpy.exports as renpy
 
 def bookText(text, author = None, title = None):        
     if author and title:
-        return "{i}%s{/i}\n\n- {i}%s{/i}, %s" % (text, author, title)
+        return "{i}%s{/i}\n\n- {i}%s,{/i} %s" % (text, author, title)
     elif title:
         return "{i}%s{/i}\n\n- %s" % (text, title)
-    elif title:
+    elif author:
         return "{i}%s{/i}\n\n- {i}%s{/i}" % (text, author)
     else:
         return "{i}%s{/i}" % text

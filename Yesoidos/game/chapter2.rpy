@@ -9,7 +9,7 @@ label chapter2:
     pause
     scene black with dissolve   
     
-    me "hullo!"
+    ""
 
 
     # $ BookQuote("Why should it bother you? He who decreed that oil should burn will decree that the vinegar should burn, too.",
