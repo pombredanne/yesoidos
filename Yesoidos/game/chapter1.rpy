@@ -15,7 +15,7 @@ label chapter1:
     # me = Binyomin, "Benny"
     me "Teacher, why are we here?" 
 
-    "The walls of the teacher's home are simple drywall, painted a plain white. Here and there, crayon marks, cracks and dents color and texture the surface."
+    "The walls of the teacher's home are old plaster, painted a plain white. Here and there, crayon marks, cracks and dents color and texture the surface."
     "A chart of Hebrew letters hangs from a plastic hook near the door, around which my friends sit. There are about ten of us crowded in the tiny room, between three and five years old."
 
 # [prz] Most of what's said in the above two lines will be visible on the background art anyway, so it's a bit redundant to state it in words as well. Just be sure to instruct your artist ;]
@@ -103,7 +103,7 @@ label chapter1:
     st "Hmm? No one?"
     "The angelic court stood silent - in dread of the impending hammer-blow."
     st "Because..."
-    centered "{b}\"The Light born out of Darkness itself is {i}superior{/i} to any other Light!\"{/b}"
+    shout "{b}\"The Light born out of Darkness itself is {i}superior{/i} to any other Light!\"{/b}"
     st "Hashem wants mankind to fight the Darkness and {i}transform{/i} it to Light!"
     st "Not just have it drop down on their laps!"
     st "\"The Holy One, blessed be He, desired to have a home..."
@@ -115,7 +115,7 @@ label chapter1:
     st "That is why He created Man! That is why the World exists!"
     st "That is why my mission - for I serve the Creator just as you do - is to create the Darkness."
     "Satan had struck a nerve. The court erupted in arguments and challenges. But before it got too loud, Satan raised his voice."
-    centered "{b}It is so that Man can defeat my Darkness!{/b}"
+    shout "{b}It is so that Man can defeat my Darkness!{/b}"
     "A stunned silence. Could it be? What does he mean?"
     "Pained, the Satan dropped to a whisper."
     st "Yes! I {i}want,{/i} just like you all, that my Darkness be subdued."
@@ -136,7 +136,7 @@ label chapter1:
     mc "If you truly desire the revelation of God, why do you prevent us from sending down this pure, radiant soul, which will accomplish exactly that?"
     st "The greatest Light comes from Darkness."
     st "To merit and appreciate such a great Light, an appropriate amount of Darkness must be subdued first."
-    centered "{i}Eliezer and Sarah are not ready for this soul yet.{/i}"
+    shout "{i}Eliezer and Sarah are not ready for this soul yet.{/i}"
     mc "What slander! Of course they are ready."
     mc "Haven't you seen how they welcome guests to their house?"
     mc "They {i}hire{/i} people to welcome and bring visitors to their home!"

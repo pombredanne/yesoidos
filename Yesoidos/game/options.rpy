@@ -150,9 +150,9 @@ init -1 python:
     ## The file containing the default font.
 
     style.default.font = "WorstveldMod.ttf"
-    config.font_replacement_map["WorstveldMod.otf", False, True] = ("WorstveldSlingOblique.ttf", False, False)
-    config.font_replacement_map["WorstveldMod.otf", True, False] = ("Worstveld Bold.otf", False, False)
-    config.font_replacement_map["WorstveldMod.otf", True, True] = ("Worstveld Bold Oblique.otf", False, False)
+    config.font_replacement_map["WorstveldMod.ttf", False, True] = ("WorstveldModOblique.ttf", False, False)
+    config.font_replacement_map["WorstveldMod.ttf", True, False] = ("WorstveldModBold.ttf", False, False)
+    config.font_replacement_map["WorstveldMod.ttf", True, True] = ("WorstveldModBoldOblique.ttf", False, False)
 
     ## The default size of text.
 
@@ -168,15 +168,15 @@ init -1 python:
 
     ## Set this to False if the game does not have any sound effects.
 
-    config.has_sound = True
+    #config.has_sound = True
 
     ## Set this to False if the game does not have any music.
 
-    config.has_music = True
+    #config.has_music = True
 
     ## Set this to False if the game does not have voicing.
 
-    config.has_voice = False
+    #config.has_voice = False
 
     ## Sounds that are used when button and imagemaps are clicked.
 

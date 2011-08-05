@@ -8,25 +8,42 @@ init:
     # Characters from the past, like in the Baal Shem Tov story, are in grey
     define storyChar = Character("", color = "#888888")
 
-    # Baal Shem Tov story
-    $ hs = Character(None,
-                     what_style="centered_text",
-                     what_size=70,
-                     what_xalign=0.5,
-                     what_yalign=0.5,
-                     window_xalign=0.5,
-                     window_yalign=0.5,
+    $ shout = Character(None,
+                     window_align=(0.5,0.5),
+                     window_xminimum=0.1,
+                     window_xmaximum=0.9,
+                     window_yminimum=0,
+                     window_left_padding=35,
+                     window_right_padding=35,
+                     window_top_padding=15,
+                     window_bottom_padding=15,
+                     what_pos=(0,0),
                      window_xfill=False,
                      window_yfill=False,
-                     window_background="#0008",
+                     window_background="#000a")
+
+    # Baal Shem Tov story
+    $ hs = Character(None,
+                     what_size=70,
+                     window_align=(0.5,0.5),
+                     window_xminimum=0.1,
+                     window_xmaximum=0.9,
+                     window_yminimum=0,
+                     window_xfill=False,
+                     window_yfill=False,
+                     window_left_padding=55,
+                     window_right_padding=55,
+                     window_top_padding=15,
+                     window_bottom_padding=15,
+                     window_background="#000a",
                      what_prefix="{font=Speedline.ttf}",
                      what_suffix="{/font}",
                      what_outlines=[(3, "#000000", 2, 2),(3,"#111", 2, 2)])
     $ st = storyChar.copy("Satan")
-    $ mc = storyChar.copy("Michoel")
-    $ el = storyChar.copy("Eliezer")
+    $ mc = storyChar.copy("Michoël")
+    $ el = storyChar.copy("Eliëzer")
     $ sr = storyChar.copy("Sara")
-    $ yb = storyChar.copy("Yisroel")
+    $ yb = storyChar.copy("Yisroël")
     $ sz = storyChar.copy("Shlomo Zalmen")
     
     # Transitions
