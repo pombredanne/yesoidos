@@ -9,33 +9,36 @@ init:
     define storyChar = Character("", color = "#888888")
 
     $ shout = Character(None,
+                     window_background="#000a",
                      window_align=(0.5,0.5),
-                     window_xminimum=0.1,
-                     window_xmaximum=0.9,
+                     window_xmargin=0.05,
                      window_yminimum=0,
-                     window_left_padding=35,
-                     window_right_padding=35,
-                     window_top_padding=15,
-                     window_bottom_padding=15,
-                     what_pos=(0,0),
-                     window_xfill=False,
-                     window_yfill=False,
-                     window_background="#000a")
+                     window_xpadding=35,
+                     window_ypadding=15,
+
+                     what_textalign=0.5,
+                     what_xalign=0.5,
+                     what_xfill=True,
+
+                     # screen_width * (1-xmargin*2) - 2*xpadding
+                     what_minwidth=852)
+
 
     # Baal Shem Tov story
     $ hs = Character(None,
-                     what_size=70,
-                     window_align=(0.5,0.5),
-                     window_xminimum=0.1,
-                     window_xmaximum=0.9,
-                     window_yminimum=0,
-                     window_xfill=False,
-                     window_yfill=False,
-                     window_left_padding=55,
-                     window_right_padding=55,
-                     window_top_padding=15,
-                     window_bottom_padding=15,
                      window_background="#000a",
+                     window_xmargin=0.05,
+                     window_yminimum=0,
+                     window_ypadding=15,
+                     window_xpadding=60,
+                     window_align=(0.5,0.5),
+
+                     what_textalign=0.5,
+                     what_xalign=0.5,
+
+                     # screen_width * (1-xmargin*2) - 2*xpadding
+                     what_minwidth=802, 
+                     what_size=70,
                      what_prefix="{font=Speedline.ttf}",
                      what_suffix="{/font}",
                      what_outlines=[(3, "#000000", 2, 2),(3,"#111", 2, 2)])
