@@ -60,3 +60,8 @@ init:
     image bg soul1 = "soul1.png"
     image satan = "satan.png"
     image michoel = "michoel.png"
+
+
+    # Chapter 2 stuff
+
+    $ ys = Character("Yosef", color="#ffcc99")

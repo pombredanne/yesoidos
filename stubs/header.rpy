@@ -14,8 +14,10 @@
 # The literary content of Yesoidos is copyrighted. License is granted to
 # redistribute and copy it, provided that this copyright notice appears with it.
 
-# All other rights are reserved by the author. The literary content is not under
-# GPL.
+# The literary content is the property of the author and is not released under
+# GPL. This includes, but is not limited to, the code in the files chapter*.rpy,
+# where * is an integer chapter number. These are copyrighted by the author,
+# all rights reserved.
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of

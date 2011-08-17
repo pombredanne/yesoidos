@@ -87,9 +87,7 @@ init -1 python:
         ## the in-game window is square.
         rounded_window = False,
 
-        ## And we're done with the theme. The theme will customize
-        ## various styles, so if we want to change them, we should
-        ## do so below.            
+        text_size = 36,        
         )
 
 
@@ -150,6 +148,8 @@ init -1 python:
 
     ## The file containing the default font.
 
+    style.button_text.size = 36
+    style.button_text.font = "WorstveldModBold.ttf"
     style.default.font = "WorstveldMod.ttf"
     config.font_replacement_map["WorstveldMod.ttf", False, True] = ("WorstveldModOblique.ttf", False, False)
     config.font_replacement_map["WorstveldMod.ttf", True, False] = ("WorstveldModBold.ttf", False, False)
@@ -158,6 +158,13 @@ init -1 python:
     ## The default size of text.
 
     style.default.size = 36
+
+    ## Fix up preference VBoxes. (renpy-dir/common/_layout/classic_preferences.rpym)
+    style.prefs_left.xpos = 249   # screen_width/2 - 250 - 13
+    style.prefs_center.xpos = 512 # screen_width/2
+    style.prefs_right.xpos = 775  # screen_width/2 + 250 + 13
+
+    style.prefs_frame.top_margin = 100
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
@@ -177,7 +184,7 @@ init -1 python:
 
     ## Set this to False if the game does not have voicing.
 
-    #config.has_voice = False
+    config.has_voice = False
 
     ## Sounds that are used when button and imagemaps are clicked.
 
