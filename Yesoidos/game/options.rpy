@@ -76,18 +76,19 @@ init -1 python:
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = blackColor,
+        mm_root = "mainMenu.png",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = blackColor,
+        gm_root = "Forest1.png", #blackColor,
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
         rounded_window = False,
 
-        text_size = 36,        
+        text_size = 36,
+        small_text_size = 26, #file picker text size
         )
 
 
@@ -158,13 +159,17 @@ init -1 python:
     ## The default size of text.
 
     style.default.size = 36
+    style.file_picker_text_size = 28
 
     ## Fix up preference VBoxes. (renpy-dir/common/_layout/classic_preferences.rpym)
-    style.prefs_left.xpos = 249   # screen_width/2 - 250 - 13
-    style.prefs_center.xpos = 512 # screen_width/2
-    style.prefs_right.xpos = 775  # screen_width/2 + 250 + 13
+    style.prefs_left.xpos = 249   # screen_width/2[512] - button_width[250] - 13
+    style.prefs_center.xpos = 512 # screen_width/2[512]
+    style.prefs_right.xpos = 775  # screen_width/2[512] + button_width[250] + 13
 
     style.prefs_frame.top_margin = 100
+
+    ## Fix up file picker button heights. (renpy-dir/common/_layout/classic_load_save.rpym)
+    style.large_button.yminimum = 62
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
