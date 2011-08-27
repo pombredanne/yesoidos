@@ -86,6 +86,7 @@ label chapter1:
     mc "In such a state, you and your doubtful services would be... unnecessary."
     mc "Put simply, your testimony is tainted; so please excuse us, if we do not take your word at face value."
     mc "After all, your mission {i}is{/i} to hinder Man's quest to reveal God in the world."
+    show satan scheming at left with dissolve
     st "Of course, of course. I cannot deny that." 
     "The archangel Michoël smiled in victory, but only slightly. It seemed that Satan had something up his sleeve."
     st "However..."
@@ -177,6 +178,7 @@ label chapter1:
     hs "...this soul shall be granted to them, immediately, to raise as their son!"
     hide satan
     hide michoel
+    show bg forestCabin1 with dissolve
     "And so it happened."
     "In the test, Eliëzer and Sara were separated for many years in distant lands, enduring grueling trials of moral strength."
     "In the end, they passed the test, remaining faithful to each other and to God."
@@ -236,6 +238,7 @@ label chapter1:
     "He treated everyone nicely and made friends with everyone. He would smile and cheer everyone up."
     "He loved everyone and everything, because they were all creations the Holy One, Blessed Be He."
     "In each, he saw a luminous soul of life, a precious ray of the infinite Light of the Ein Sof, the Life of the Worlds."
+    show bg forest1 with dissolve
     "Another thing little Yisroël loved was meditating on the wonders of Creation."
     "Since he wasn't afraid of the forest, he liked going there alone to think about these things."
     "And that was how he met a hidden {i}tsadik.{/i}"
@@ -263,6 +266,7 @@ label chapter1:
     sz "Do you want to learn something with me?"
     yb "Yes! Yes!"
     sz "Let's sit over here, by the creek."
+    show bg forest2 with dissolve
     "The {i}tsadik{/i} produced a sizeable tome from his pack."
     sz "So, here. Go ahead and read."
     yb "Hmm... {i}Rabi Chizkiya posach, k'siv k'shoishana bein hachoichim.{/i}"
@@ -447,6 +451,7 @@ label chapter1:
     pn "Yeah! I can't see this much when I'm on the ground."
     me "Yeah. When you go higher, you can see more stuff all around."
     me "Maybe it's the same spiritually."
+    # Actually, because, it's that way spiritually, it's the same way physically. This higher idea will appear later.
     pn "Eh-h-h."
     pn "Awesomeness."
     pn "Maybe that's why those older kids like the top bunk so much."

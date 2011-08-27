@@ -59,6 +59,7 @@ init:
     image bg forestCabin1 = "ForestCabin1.jpg"
     image bg soul1 = "soul1.png"
     image satan = "satan.png"
+    image satan scheming = "satan.scheming.png"
     image michoel = "michoel.png"
 
 
