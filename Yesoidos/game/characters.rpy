@@ -25,16 +25,8 @@ init:
 
 
     # Baal Shem Tov story
-    $ hs = Character(None,
-                     window_background="#000a",
-                     window_xmargin=0.05,
-                     window_yminimum=0,
-                     window_ypadding=15,
+    $ hs = shout.copy(None,
                      window_xpadding=60,
-                     window_align=(0.5,0.5),
-
-                     what_textalign=0.5,
-                     what_xalign=0.5,
 
                      # screen_width * (1-xmargin*2) - 2*xpadding
                      what_minwidth=802, 
@@ -53,13 +45,24 @@ init:
     $ mediumDissolve = Dissolve(2.0)
     $ slowDissolve = Dissolve(4.0)
     $ slowFade = Fade(2.0,0,2.0)
+
+
     # Art
-    image bg forest1 = "Forest1.jpg"
-    image bg forest2 = "Forest2.jpg"
-    image bg forestCabin1 = "ForestCabin1.jpg"
+    image bg forest1 = "Forest1.png"
+    image bg forest2 = "Forest2.png"
+    image bg flowerField1 = "FlowerField1.png"
+    transform panFlowerField:
+        "FlowerField1.png"
+        dissolve
+        xalign 0.0
+        linear 2.0 xalign 1.0
+
+    image bg forestCabin1 = "ForestCabin1.png"
     image bg soul1 = "soul1.png"
+
     image satan = "satan.png"
     image satan scheming = "satan.scheming.png"
+    image satan yearning = "satan.yearning.png"
     image michoel = "michoel.png"
 
 

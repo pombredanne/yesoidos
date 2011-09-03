@@ -25,6 +25,7 @@ init -1 python:
     ## running in a window.
 
     config.window_title = u"Yesoidos"
+    config.window_icon = "icon-1024.png"
 
     #########################################
     # Layouts

@@ -95,6 +95,7 @@ label chapter1:
     "The Satan let the question sink in."
     st "After all, God is all-powerful."
     st "If His Will is to create, it is created. Why not create an Earth where God is {i}already revealed?{/i}"
+    show satan at left with dissolve
     st "Actually, I can go even further!"
     st "Why was the Earth created..."
     st "...{i}at all?{/i}"
@@ -128,6 +129,7 @@ label chapter1:
     st "How much pain this causes the Shechinah?"
     st "Yet, I am commanded by the Creator..."
     st "...to make the Darkness..."
+    show satan yearning at left with dissolve
     "Here his expression changed to one of longing, of the ecstasy of the World to Come."
     st "...so that the Light will be revealed when the Darkness is defeated."
     st "And that is why I do it."
@@ -135,6 +137,7 @@ label chapter1:
     "More silence. Then -"
     mc "I sympathize with your lot. But, what is your point?"
     mc "If you truly desire the revelation of God, why do you prevent us from sending down this pure, radiant soul, which will accomplish exactly that?"
+    show satan at left with dissolve
     st "The greatest Light comes from Darkness."
     st "To merit and appreciate such a great Light, an appropriate amount of Darkness must be subdued first."
     shout "{i}Eliëzer and Sara are not ready for this soul yet.{/i}"
@@ -177,8 +180,9 @@ label chapter1:
     hs "It is further decreed that if Eliëzer and Sara pass the test..."
     hs "...this soul shall be granted to them, immediately, to raise as their son!"
     hide satan
-    hide michoel
-    show bg forestCabin1 with dissolve
+    hide michoe
+    scene bg forestCabin1 
+    with dissolve
     "And so it happened."
     "In the test, Eliëzer and Sara were separated for many years in distant lands, enduring grueling trials of moral strength."
     "In the end, they passed the test, remaining faithful to each other and to God."
@@ -197,14 +201,25 @@ label chapter1:
     el "Our God and God of our forefathers, sustain this boy to me and my wife, and let his name be called in Israel - Yisroël, son of Eliëzer!"
     el "May his heart be open to Your Holy Torah like the entrance to the Temple - to learn, to teach, to guard and to perform it...."
     "The joy and peace, however, was not to last."
+    scene black with dissolve
+
+    show satan scheming at center with dissolve
     st "The boy grows fast."
     st "Too fast."
     st "I must slow his progress. By God's decree, I cannot take the boy's life. But..."
     st "It is the mother who instills love in the child. Maybe by taking her away, I can halt the boy's progress."
     st "Wisdom comes from the father. I can wait a bit to claim him; the boy is too young to learn Torah right now."
+    
+    hide satan
+    scene bg forestCabin1 
+    with dissolve
     "And so, while Yisroël was still a small child, first his mother, then his father passed into {i}Oilom HoËmes,{/i} the Realm of Truth."
     "The poor child Yisroël was on his own."
     "However, that did not stop his learning and growth."
+
+    scene bg flowerField1 with slowDissolve:
+        xalign 0.0
+        linear 35.0 xalign 1.0
     "His childhood was an intensely Godly experience. Having learned to read the Holy Tongue as fluently as an adult, {i}seforim{/i} like the Tehilim, Gemoro and the Zohar came alive for him as he lovingly whispered their teachings."
     "When he read \"You are my son - I have begotten you today,\" in the Tehillim of King David, he heard God telling him that he was God's son."
     "When he read how God called out to Shmuël the prophet, he longed for God to call to him the same way."
@@ -212,7 +227,7 @@ label chapter1:
     "\"It is a Tree of Life for those grasp onto it; happy are those who support it!\""
     "But, even though he learned and felt more than probably anyone alive today, that was just a small part of who the Baäl Shem Tov was."
     "Before Yisroël's father Eliëzer left this world, there were two things he told his beloved son."
-    
+    scene black with Dissolve(1.6)
     el "Yisroëlik..."
     # yb = Yisroël, Baäl Shem Tov
     yb "Yes, Tatti?"
