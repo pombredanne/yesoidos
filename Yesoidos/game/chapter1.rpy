@@ -218,8 +218,8 @@ label chapter1:
     "However, that did not stop his learning and growth."
 
     scene bg flowerField1 with slowDissolve:
-        xalign 0.0
-        linear 35.0 xalign 1.0
+        xalign 1.0
+        linear 35.0 xalign 0.0
     "His childhood was an intensely Godly experience. Having learned to read the Holy Tongue as fluently as an adult, {i}seforim{/i} like the Tehilim, Gemoro and the Zohar came alive for him as he lovingly whispered their teachings."
     "When he read \"You are my son - I have begotten you today,\" in the Tehillim of King David, he heard God telling him that he was God's son."
     "When he read how God called out to Shmuël the prophet, he longed for God to call to him the same way."
