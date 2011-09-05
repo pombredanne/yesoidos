@@ -385,7 +385,7 @@ label chapter1:
     me "I wanna know what goes on in Heaven."
     pn "Hui?"
     "Pinny has a tendency to make... interesting sound effects."
-    "No-one mentions it much, though. It just blends in so well with the conversation."
+    "No one mentions it much, though. It just blends in so well with the conversation."
     "Sometimes, his entire side of the conversation is nothing but sound effects."
     "A lot of the time, I think that the sound effects work better than words."
     pn "Well, I want to know everything, Heaven {i}and{/i} Earth!"

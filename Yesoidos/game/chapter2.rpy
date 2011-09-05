@@ -1,6 +1,6 @@
 label chapter2:
     scene black
-    with dissolve
+    with slowDissolve
     
     show text chapterText(2, "The Training") with dissolve
     pause
@@ -26,6 +26,7 @@ label chapter2:
     
     "Since Yossi lived nearby, we would see each other fairly often."
     "One of those conversations went something like this."
+    scene bg forestPavedPath1 with dissolve
     me "Hi Yossi!"
     ys "Benny!"
     me "How do you become a tsadik?"
@@ -37,7 +38,7 @@ label chapter2:
     ys "Don't wo- *hic* worry about it. Hic."
     me "Breathe slowly."
     ys "Hic."
-    "An ice cream later, he was back to normal."
+    "... An ice cream later, he was back to normal."
     ys "Hah-h-h. Thanks, Benny."
     me "No problem!"
     me "{i}Boruch atoh adoinoi, eloheinu melech haölom, boirei nefashos rabos v'chesroinon al kol mo sheboroso lehachayois bohem nefesh kol chai.{/i}"
@@ -53,7 +54,7 @@ label chapter2:
     me "Candelabrum. Isn't that so over-the-top?"
     ys "I know! Why can't they just use {i}normal English?{/i}"
     "We both laugh, but I stop quickly."
-    me "Hey, don't get the hiccups again, unless you want to get the ice cream this time!"
+    me "Hey, don't get the hiccups again, unless {i}you{/i} want to get the ice cream this time!"
     ys "Hahaha! Hic!"
     me "{b}NO-O-O!{/b} Not the hiccups again!"
     ys "Haha-*hic*-haha-*hic*!"
@@ -77,8 +78,9 @@ label chapter2:
     me "Oo-oohhh. Poor guy!"
     me "Wait a minute... what about me?"
     me "Ohhhh no."
-
-    "That afternoon (after a {i}quick{/i} lunch), I took the one volume of Talmud my dad had, and tried to read it in Aramaic."
+    
+    scene black with mediumDissolve
+    "... That afternoon (after a {i}quick{/i} lunch), I took the one volume of Talmud my dad had, and tried to read it in Aramaic."
     "It had the vowels added in, so the sounding out the words wasn't too hard."
     "It's just that I had absolutely no idea what I was reading at all."
     "So I read for a while."
@@ -86,6 +88,7 @@ label chapter2:
     "And then I fell asleep on the couch."
     "I guess that I bit off more than I could chew."
     "From then on, I stuck with the English."
+    scene bg forestPathUp1 with dissolve
     "When I got older, I would put a finger in the Hebrew and the English at the same time. Matching up the words helped me learn the language."
     "It was slow going, but I made some progress."
     "When I was twelve, I could understand about half of the siddur, or the Jewish prayerbook."
@@ -97,10 +100,12 @@ label chapter2:
     "It was a huge collection of Jewish aphorisms - it really got into human psychology, self-improvement and stuff like that."
     "Or maybe it was because I kept asking questions from the rabbi and kept getting answers."
     "I started feeling that no matter what the question, there was always an answer."
+    "Even if the answer was \"I don't know,\" I usually found the answer somewhere, sometime later on."
     "Maybe it was just that there were entire fields of Jewish knowledge that I had no idea about, like Talmud and Kabbalah."
     "The possibilities and knowledge just waiting out there made me want to go out and get it for myself."
     "But at the same time as I was exhilarated by the knowledge, I was also in awe and a bit of fear of it."
     "There is a story about this in the Talmud."
+    scene black with mediumDissolve
     #Scene change here to indicate the beginning of a story
     "There are four levels of understanding Torah, four different realms."
     "There is P'shat, Remez, Drush and Sod."
@@ -114,19 +119,18 @@ label chapter2:
     "\"There were four men that entered Pardes.\""
     "\"They were Ben Azai, Ben Zoma, Acher, and Rabbi Akiva.\""
     "\"He said to them:\""
-    "\'When you reach stones possessing purity, do not say, \"Water, water!\"\'"
+    "\'When you reach the pure marble stones, do not say, \"Water, water!\"\'"
     "\'For it is said, \"One who speaks falsehood will not be guiltless in My eyes.\"\'"
     "\"Ben Azai peered in and died.\""
     "\"Scripture says of him, \'Precious in the eyes of God is the death of His pious.\'\""
     "\"Ben Zoma peered in and became insane.\""
     "\'Scripture says of him, \"Have you found honey? Eat what is enough for you, so that you not be filled with it and vomit it.\'\""
-    "\"Acher cut down the plantings[, leading men astray in heresy].\""
+    "\"Acher cut down the plantings, [going astray in heresy].\""
     "\"Rabbi Akiva came out in peace.\""
     #Scene change back to normal
     "This is why I once asked Zusha whether I should learn Kabbalah."
-
-
-    "Once, before Zusha had left, I asked him about Kabbalah."
+    "It happened before he had left."
+    "...<more later>..."
 
     # $ BookQuote("Why should it bother you? He who decreed that oil should burn will decree that the vinegar should burn, too.",
     # "Gemoro, Ta'ainis 25a")

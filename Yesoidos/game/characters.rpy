@@ -61,6 +61,8 @@ init:
     image bg forestCreek1 = "ForestCreek1.png"
     image bg forestClearing1 = "ForestClearing1.png"
     image bg forestClearing2 = "ForestClearing2.png"
+    image bg forestPavedPath1 = "ForestPavedPath1.png"
+    image bg forestPathUp1 = "ForestPathUp1.png"
     image bg soul1 = "soul1.png"
 
     image satan = "satan.png"
