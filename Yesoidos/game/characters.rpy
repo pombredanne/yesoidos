@@ -58,6 +58,9 @@ init:
         linear 2.0 xalign 1.0
 
     image bg forestCabin1 = "ForestCabin1.png"
+    image bg forestCreek1 = "ForestCreek1.png"
+    image bg forestClearing1 = "ForestClearing1.png"
+    image bg forestClearing2 = "ForestClearing2.png"
     image bg soul1 = "soul1.png"
 
     image satan = "satan.png"

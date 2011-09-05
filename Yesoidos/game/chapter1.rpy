@@ -55,7 +55,7 @@ label chapter1:
     "Everyone quiets down and shifts to see Zusha better."
     
     zu "A long time ago, there lived a married couple in a village called Okup. Eliëzer and Sara were their names."
-    scene bg forestCabin1 with slowFade
+    scene bg forestCabin1 with slowDissolve
     "They were {i}tsadikim,{/i} but they were lonely because they had no child."
     "They {i}davened{/i} and {i}davened{/i} for a child, crying out to Hashem."
     "And Hashem heard their prayers."
@@ -281,7 +281,7 @@ label chapter1:
     sz "Do you want to learn something with me?"
     yb "Yes! Yes!"
     sz "Let's sit over here, by the creek."
-    show bg forest2 with dissolve
+    show bg forestCreek1 with dissolve
     "The {i}tsadik{/i} produced a sizeable tome from his pack."
     sz "So, here. Go ahead and read."
     yb "Hmm... {i}Rabi Chizkiya posach, k'siv k'shoishana bein hachoichim.{/i}"
@@ -290,6 +290,7 @@ label chapter1:
     "Seeing that Yisroël had such a special soul, Rabbi Shlomo decided to take care of Yisroël."
     "From then on, wherever Rabbi Shlomo Zalmen went, little Yisroël went, too."
     zu "In time, Yisroël learned the keys to finding the Secret of Secrets."
+    scene black with mediumDissolve
     pn "Teacher?"
     zu "Hmm?"
     pn "What was the Secret?"
@@ -310,6 +311,7 @@ label chapter1:
     zu "Alkay, {i}kinderlech.{/i} That's all for today! You can go!"
 
     "All my friends run to the field to play soccer."
+    scene bg forestClearing1 with dissolve
     "I'm about to join them, when I remember my question from earlier."
 
     me "Teacher?"
@@ -362,7 +364,7 @@ label chapter1:
     
     show text "{i}Time passes...{/i}" with dissolve
     pause
-    scene black with dissolve
+    scene bg forestClearing2 with dissolve
     
     pn "Let's go climb that one over there."
     me "The one that looks like a banana?"
