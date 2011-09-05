@@ -180,7 +180,7 @@ label chapter1:
     hs "It is further decreed that if Eliëzer and Sara pass the test..."
     hs "...this soul shall be granted to them, immediately, to raise as their son!"
     hide satan
-    hide michoe
+    hide michoel
     scene bg forestCabin1 
     with dissolve
     "And so it happened."
