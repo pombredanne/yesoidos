@@ -69,24 +69,26 @@ label chapter1:
     "...when a certain angel saw the soul that was chosen and spoke up."
     
     # st = Satan, the angel
-    show satan at left with dissolve
+    show satan angry at left with dissolve
     st "Wait!"
     st "How do we know that those two really deserve to raise this soul as their child?"
+    show satan with dissolve
     st "A soul like this may {i}not{/i} be given to just anybody!"
     # mc = Michoël, the angel
-    show michoel at right with dissolve
+    show michoel angry at right with dissolve
     mc "Be quiet! Who here doesn't know that you have been blocking this soul's way, for centuries now?"
     mc "You have a vested interest in not allowing this soul to be born!"
     mc "You are afraid that its radiance and holiness could threaten your power!"
+    show michoel with dissolve
     mc "Are you really expecting us to accept your word as objective? As the truth of truths?"
     mc "If the soul were to be sent down, it could bring the era of {i}Moshiäch!{/i} The culmination of all God's efforts in Creation!"
     mc "Of course you wouldn't want that!"
     mc "No one would die, no wars would be fought, and no one would wrong another again."
     mc "The world would be filled with holy Light and knowledge of God!"
     mc "In such a state, you and your doubtful services would be... unnecessary."
-    mc "Put simply, your testimony is tainted; so please excuse us, if we do not take your word at face value."
-    mc "After all, your mission {i}is{/i} to hinder Man's quest to reveal God in the world."
-    show satan scheming at left with dissolve
+    mc "Put simply, your testimony is tainted."
+    mc "After all, your purpose {i}is{/i} to hinder Man's quest to reveal God in the world."
+    show satan scheming with dissolve
     st "Of course, of course. I cannot deny that." 
     "The archangel Michoël smiled in victory, but only slightly. It seemed that Satan had something up his sleeve."
     st "However..."
@@ -95,7 +97,7 @@ label chapter1:
     "The Satan let the question sink in."
     st "After all, God is all-powerful."
     st "If His Will is to create, it is created. Why not create an Earth where God is {i}already revealed?{/i}"
-    show satan at left with dissolve
+    show satan with dissolve
     st "Actually, I can go even further!"
     st "Why was the Earth created..."
     st "...{i}at all?{/i}"
@@ -105,6 +107,7 @@ label chapter1:
     st "Hmm? No one?"
     "The angelic court stood silent - in dread of the impending hammer-blow."
     st "Because..."
+    show satan angry with dissolve
     shout "{b}\"The Light born out of Darkness itself is {i}superior{/i} to any other Light!\"{/b}"
     st "Hashem wants mankind to fight the Darkness and {i}transform{/i} it to Light!"
     st "Not just have it drop down on their laps!"
@@ -112,24 +115,29 @@ label chapter1:
     st "\"...in the {i}lower{/i} realms!\""
     st "Where God's presence is hidden!"
     st "Specifically!"
+    show satan with dissolve
     st "Sound familiar, anyone?"
     "There was some reluctant nodding."
     st "That is why He created Man! That is why the World exists!"
     st "That is why my mission - for I serve the Creator just as you do - is to create the Darkness."
     "Satan had struck a nerve. The court erupted in arguments and challenges. But before it got too loud, Satan raised his voice."
+    show satan angry with dissolve
     shout "{b}It is so that Man can defeat my Darkness!{/b}"
     "A stunned silence. Could it be? What does he mean?"
+    show satan small with dissolve
     "Pained, the Satan dropped to a whisper."
     st "Yes! I {i}want,{/i} just like you all, that my Darkness be subdued."
     "More confused silence."
+    show satan with dissolve
     st "Here, in Oilom HoËmes, in the Realm of Truth, dishonesty does not exist. Search through me and see that this is true!"
     st "It would tear any angel apart to see Man sin."
+    show satan small with dissolve
     st "But can you imagine how horrible it is to {i}cause{/i} him to sin?"
     st "Who, aside from the One, knows better than I how much damage and chaos Man causes when he sins?"
     st "How much pain this causes the Shechinah?"
     st "Yet, I am commanded by the Creator..."
     st "...to make the Darkness..."
-    show satan yearning at left with dissolve
+    show satan yearning with dissolve
     "Here his expression changed to one of longing, of the ecstasy of the World to Come."
     st "...so that the Light will be revealed when the Darkness is defeated."
     st "And that is why I do it."
@@ -137,11 +145,12 @@ label chapter1:
     "More silence. Then -"
     mc "I sympathize with your lot. But, what is your point?"
     mc "If you truly desire the revelation of God, why do you prevent us from sending down this pure, radiant soul, which will accomplish exactly that?"
-    show satan at left with dissolve
+    show satan with dissolve
     st "The greatest Light comes from Darkness."
     st "To merit and appreciate such a great Light, an appropriate amount of Darkness must be subdued first."
     shout "{i}Eliëzer and Sara are not ready for this soul yet.{/i}"
     "At this, Michoël exploded."
+    show michoel angry with dissolve
     mc "What slander! Of course they are ready."
     mc "Haven't you seen how they welcome guests to their house?"
     mc "They {i}hire{/i} people to welcome and bring visitors to their home!"
@@ -149,6 +158,7 @@ label chapter1:
     mc "A single candle can light up a huge, pitch-black room."
     mc "Just so, Torah study, mitzvos, and deeds of loving-kindness illuminate the world and dispell the Darkness..."
     mc "...for these reveal the True Light - the pure, infinite Light of the Ein Sof Himself!"
+    show michoel with dissolve
     mc "This is so, even of one mitzvah!"
     mc "And even more so - with not one, but many mitzvos!"
     mc "Look at this dazzling Light that they have brought to the world!"
@@ -157,20 +167,28 @@ label chapter1:
     mc "Rather, they are in the inner circle of God Himself!"
     mc "This alone merits a truly radiant soul as a child!"
     mc "And that is not all. Look at how much charity they give. They hardly have a kopek left for themselves!"
+    show michoel angry with dissolve
     mc "You say that you understand the Darkness. Do you then not understand the pain of poverty?"
     mc "Let us end that pain once and for all!"
     mc "Not just for them, but for all Mankind!"
     mc "This soul would be descended in a direct line from King David, God's beloved and righteous annointed!"
+    show michoel inspired with dissolve
     mc "Let us bring the Light of Moshiäch into the world!"
     "The heavenly hosts were awed. The sun and moon were humbled."
     "Cheers and applause rang throughout the worlds, and Eliyahu the prophet began to practice sounding the great {i}shofar,{/i} to herald the arrival of Moshiäch." 
     "But Satan still had more to say."
     st "So far they have shown that they serve God with their money and possessions. This is not enough!"
     st "Serving God with money is just one way. They must also show that they serve God with all their heart and soul!"
+    show michoel angry
+    show satan angry
+    with dissolve
     "Protests arose in court as the angels argued back and forth."
     "Then a great voice arose in the heavenly court."
     # hs = Hashem, God. 
     hs "Silence!"
+    show michoel small
+    show satan small
+    with dissolve
     "The angelic court stood, trembling in awe as God spoke."
     hs "The Satan is right."
     hs "Such a soul may not be given..."

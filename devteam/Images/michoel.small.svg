@@ -15,8 +15,8 @@
    id="svg4164"
    version="1.1"
    inkscape:version="0.48+devel r9730"
-   sodipodi:docname="michoel.svg"
-   inkscape:export-filename="/Users/chaimleib/Documents/Programming/yesoidos/trunk/Yesoidos/game/michoel.png"
+   sodipodi:docname="michoel.small.svg"
+   inkscape:export-filename="/Users/chaimleib/Documents/Programming/yesoidos/trunk/Yesoidos/game/michoel.small.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -198,8 +198,8 @@
      showgrid="true"
      inkscape:window-width="1468"
      inkscape:window-height="1001"
-     inkscape:window-x="-77"
-     inkscape:window-y="0"
+     inkscape:window-x="98"
+     inkscape:window-y="46"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4169">
@@ -209,7 +209,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -224,7 +224,7 @@
        id="path4777"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssssccssss"
-       transform="matrix(0.88235295,0,0,0.76446738,20.588235,98.840666)" />
+       transform="matrix(0.69959272,0,0,0.60612458,52.571275,215.14764)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -232,7 +232,7 @@
      inkscape:label="Body"
      style="display:inline">
     <path
-       transform="matrix(0.88235295,0,0,0.76446738,20.588235,-303.5215)"
+       transform="matrix(0.69959272,0,0,0.60612458,52.571275,-187.21453)"
        sodipodi:nodetypes="cssccssc"
        inkscape:connector-curvature="0"
        id="path3308"
@@ -248,11 +248,13 @@
        d="m 234.71875,336.4375 c -13.70032,14.54844 -34.54881,23.84375 -57.90625,23.84375 -21.57102,0 -40.98706,-7.9227 -54.625,-20.59375 10.68373,20.18451 31.51349,33.875 55.46875,33.875 25.21098,0 46.95933,-15.18811 57.0625,-37.125 z"
        id="path4192"
        inkscape:connector-curvature="0"
-       transform="matrix(0.83112891,0,0,1,30.135573,0)" />
+       transform="matrix(0.65897863,0,0,0.79287174,60.14109,53.43909)" />
     <path
        style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4162)"
-       d="M 174.59375 145.78125 A 15.713374 13.61401 0 0 0 169.6875 146.59375 C 171.43317 147.89222 172.92793 149.39027 174.0625 151.09375 C 176.21698 154.34124 178.25092 157.4951 180 160 C 205.19414 196.08131 226.00768 205.08393 227.53125 272.09375 C 227.58461 269.1468 227.625 266.13335 227.625 262.96875 C 227.625 206.36437 212.12195 188.09517 193.15625 159.59375 C 191.88891 157.68921 190.40484 155.28165 188.84375 152.8125 A 15.713374 13.61401 0 0 0 174.59375 145.78125 z "
-       id="path4128" />
+       d="m 174.59375,145.78125 a 15.713374,13.61401 0 0 0 -4.90625,0.8125 c 1.74567,1.29847 3.24043,2.79652 4.375,4.5 2.15448,3.24749 4.18842,6.40135 5.9375,8.90625 25.19414,36.08131 46.00768,45.08393 47.53125,112.09375 0.0534,-2.94695 0.0937,-5.9604 0.0937,-9.125 0,-56.60438 -15.50305,-74.87358 -34.46875,-103.375 -1.26734,-1.90454 -2.75141,-4.3121 -4.3125,-6.78125 a 15.713374,13.61401 0 0 0 -14.25,-7.03125 z"
+       id="path4128"
+       inkscape:connector-curvature="0"
+       transform="matrix(0.79287174,0,0,0.79287174,36.247446,53.43909)" />
     <path
        sodipodi:type="arc"
        style="opacity:0.64655175;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4186)"
@@ -262,6 +264,6 @@
        sodipodi:rx="8.301405"
        sodipodi:ry="8.301405"
        d="m 159.38698,196.7433 a 8.301405,8.301405 0 1 1 -16.60281,0 8.301405,8.301405 0 1 1 16.60281,0 z"
-       transform="matrix(0.49485092,0.60489419,-0.8786735,1.033566,228.02528,-89.693251)" />
+       transform="matrix(0.39235331,0.47960351,-0.69667539,0.81948527,217.04225,-17.676154)" />
   </g>
 </svg>

@@ -13,8 +13,8 @@ init -1 python:
     ## set to False before the game is released, so the user can't
     ## cheat using developer tools.
 
-    #config.developer = True
-    config.developer = False
+    config.developer = True
+    #config.developer = False
 
     ## These control the width and height of the screen.
 

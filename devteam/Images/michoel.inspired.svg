@@ -15,8 +15,8 @@
    id="svg4164"
    version="1.1"
    inkscape:version="0.48+devel r9730"
-   sodipodi:docname="michoel.svg"
-   inkscape:export-filename="/Users/chaimleib/Documents/Programming/yesoidos/trunk/Yesoidos/game/michoel.png"
+   sodipodi:docname="michoel.inspired.svg"
+   inkscape:export-filename="/Users/chaimleib/Documents/Programming/yesoidos/trunk/Yesoidos/game/michoel.inspired.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -39,19 +39,15 @@
     <linearGradient
        id="linearGradient4832">
       <stop
-         style="stop-color:#fffd00;stop-opacity:1;"
+         style="stop-color:#ffee58;stop-opacity:1;"
          offset="0"
          id="stop4834" />
       <stop
          id="stop4864"
-         offset="0.32489672"
-         style="stop-color:#ffcb28;stop-opacity:1;" />
+         offset="0.2972973"
+         style="stop-color:#dff9fb;stop-opacity:1;" />
       <stop
-         style="stop-color:#c893a3;stop-opacity:1;"
-         offset="0.6934666"
-         id="stop5414" />
-      <stop
-         style="stop-color:#5ec6ff;stop-opacity:1;"
+         style="stop-color:#83d3ff;stop-opacity:1;"
          offset="1"
          id="stop4836" />
     </linearGradient>
@@ -108,36 +104,13 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4832"
        id="radialGradient4838"
-       cx="175"
-       cy="743.33728"
-       fx="175"
-       fy="743.33728"
+       cx="177.20198"
+       cy="739.88885"
+       fx="177.20198"
+       fy="739.88885"
        r="85"
-       gradientTransform="matrix(1,0,0,2.5347423,-5.839652e-7,-1125.009)"
+       gradientTransform="matrix(0.96710165,-0.00535447,0.01106745,2.6630003,-2.6793481,-1235.1916)"
        gradientUnits="userSpaceOnUse" />
-    <filter
-       inkscape:collect="always"
-       id="filter4103"
-       x="-0.26548941"
-       width="1.5309788"
-       y="-0.088468869"
-       height="1.1769377">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="18.8055"
-         id="feGaussianBlur4105" />
-    </filter>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4107"
-       id="radialGradient4115"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,2.5347423,-5.839652e-7,-1125.009)"
-       cx="175"
-       cy="749.33502"
-       fx="175"
-       fy="749.33502"
-       r="85" />
     <filter
        inkscape:collect="always"
        id="filter4162"
@@ -164,23 +137,35 @@
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter4223">
+       id="filter4211"
+       x="-0.2609674"
+       width="1.5219348"
+       y="-0.79102996"
+       height="2.5820599">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="0.75063195"
-         id="feGaussianBlur4225" />
+         stdDeviation="12.236245"
+         id="feGaussianBlur4213" />
     </filter>
     <filter
        inkscape:collect="always"
-       id="filter5416"
-       x="-0.29787842"
-       width="1.5957568"
-       y="-0.90291262"
-       height="2.8058252">
+       id="filter4855"
+       x="-0.69223905"
+       width="2.3844781"
+       y="-0.20261939"
+       height="1.4052388">
       <feGaussianBlur
          inkscape:collect="always"
-         stdDeviation="13.96693"
-         id="feGaussianBlur5418" />
+         stdDeviation="49.0336"
+         id="feGaussianBlur4857" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter4859">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.3136059"
+         id="feGaussianBlur4861" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -194,12 +179,12 @@
      inkscape:cx="-120.53001"
      inkscape:cy="386.70284"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="true"
      inkscape:window-width="1468"
      inkscape:window-height="1001"
-     inkscape:window-x="-77"
-     inkscape:window-y="0"
+     inkscape:window-x="2"
+     inkscape:window-y="18"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata4169">
@@ -209,7 +194,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -217,9 +202,10 @@
      inkscape:label="Glow"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-402.36217)">
+     transform="translate(0,-402.36217)"
+     style="display:inline">
     <path
-       style="fill:url(#radialGradient4115);fill-opacity:1;stroke:none;filter:url(#filter4103)"
+       style="fill:#00eeff;fill-opacity:1;stroke:none;filter:url(#filter4855)"
        d="m 175,444.12817 c -5.66667,0 -11.39931,85.74253 -25.84885,117.48154 C 124.14367,616.53967 90,640.5895 90,741.36217 c 0,128.11822 32.82311,134.89567 55.43478,178 17.98118,34.27729 14.78261,105.00003 29.56522,105.56253 l 0,-0.3438 c 14.78261,-0.5625 11.58404,-71.28519 29.56522,-105.56248 C 227.17689,875.91409 260,869.13664 260,741.01842 260,640.18331 225.7058,616.20504 200.68377,560.96299 186.33556,529.28594 180.66667,444.12817 175,444.12817 z"
        id="path4777"
        inkscape:connector-curvature="0"
@@ -237,14 +223,14 @@
        inkscape:connector-curvature="0"
        id="path3308"
        d="m 175,414.70592 c 0,199.65625 -85,167.65625 -85,326.65625 0,128.11822 32.82311,134.89567 55.43478,178 17.98118,34.27729 14.78261,105.00003 29.56522,105.56253 l 0,-0.3438 c 14.78261,-0.5625 11.58404,-71.28519 29.56522,-105.56248 C 227.17689,875.91409 260,869.13664 260,741.01842 260,582.36217 175.09926,613.97725 175,414.70592 z"
-       style="fill:url(#radialGradient4838);fill-opacity:1;stroke:none;filter:url(#filter4223)" />
+       style="fill:url(#radialGradient4838);fill-opacity:1;stroke:none;filter:url(#filter4859)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Highlights">
     <path
-       style="fill:#fcff13;fill-opacity:1;stroke:none;filter:url(#filter5416)"
+       style="fill:#92faff;fill-opacity:1;stroke:none;filter:url(#filter4211)"
        d="m 234.71875,336.4375 c -13.70032,14.54844 -34.54881,23.84375 -57.90625,23.84375 -21.57102,0 -40.98706,-7.9227 -54.625,-20.59375 10.68373,20.18451 31.51349,33.875 55.46875,33.875 25.21098,0 46.95933,-15.18811 57.0625,-37.125 z"
        id="path4192"
        inkscape:connector-curvature="0"
