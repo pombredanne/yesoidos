@@ -44,4 +44,5 @@ init:
 
     # Chapter 2
 
+    $ inner = Character("Inner Voice", color="#888888")
     $ ys = Character("Yosef", color="#ffcc99")

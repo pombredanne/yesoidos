@@ -50,7 +50,7 @@ label chapter1:
     # pn = Pinchus, "Pinny"
     pn "Oh! Benny, I think he's gonna start!"
 
-    zu "Alkay. This is a story about the Baäl Shem Tov. Ready? Here we go."
+    zu "Alkay. This is a story about the Baal Shem Tov. Ready? Here we go."
     
     "Everyone quiets down and shifts to see Zusha better."
     
@@ -153,7 +153,8 @@ label chapter1:
     show michoel angry with dissolve
     mc "What slander! Of course they are ready."
     mc "Haven't you seen how they welcome guests to their house?"
-    mc "They {i}hire{/i} people to welcome and bring visitors to their home!"
+    mc "They {i}hire{/i} people, at their own expense, to welcome and convince passing travelers to rest for free in their home!"
+    mc "Then, they provide him with food, clothing and supplies that they can barely afford, and escort him back to the road like a king as far as they can!" 
     mc "\"A little Light dispells much Darkness.\""
     mc "A single candle can light up a huge, pitch-black room."
     mc "Just so, Torah study, mitzvos, and deeds of loving-kindness illuminate the world and dispell the Darkness..."
@@ -177,11 +178,11 @@ label chapter1:
     "The heavenly hosts were awed. The sun and moon were humbled."
     "Cheers and applause rang throughout the worlds, and Eliyahu the prophet began to practice sounding the great {i}shofar,{/i} to herald the arrival of Moshiäch." 
     "But Satan still had more to say."
+    show satan scheming with dissolve
     st "So far they have shown that they serve God with their money and possessions. This is not enough!"
+    show satan angry with dissolve
     st "Serving God with money is just one way. They must also show that they serve God with all their heart and soul!"
-    show michoel angry
-    show satan angry
-    with dissolve
+    show michoel angry with dissolve
     "Protests arose in court as the angels argued back and forth."
     "Then a great voice arose in the heavenly court."
     # hs = Hashem, God. 
@@ -193,8 +194,23 @@ label chapter1:
     hs "The Satan is right."
     hs "Such a soul may not be given..."
     hs "...unless the parents prove their worthiness."
-    hs "Since the Satan was created to test mankind..."
-    hs "...it is hereby decreed that he shall test Eliëzer and Sara's worthiness."
+    hs "They must be tested first!"
+    show satan with dissolve
+    st "My Lord!"
+    st "Since I was created to test Mankind, I hereby volunteer myself to test Eliëzer and Sara."
+    show michoel angry with dissolve
+    mc "No!"
+    mc "You will design a test too difficult to withstand!"
+    show michoel with dissolve
+    mc "Someone else should be sent, not you."
+    "There was a murmur of agreement about the court."
+
+    show michoel small
+    show satan small
+    with dissolve
+    hs "Then it is decided."
+    hs "Let Eliyahu the Prophet step forth!"
+    hs "It is hereby decreed that Eliyahu shall test Eliëzer and Sara's worthiness."
     hs "It is further decreed that if Eliëzer and Sara pass the test..."
     hs "...this soul shall be granted to them, immediately, to raise as their son!"
     hide satan
@@ -205,16 +221,16 @@ label chapter1:
     "In the test, Eliëzer and Sara were separated for many years in distant lands, enduring grueling trials of moral strength."
     "In the end, they passed the test, remaining faithful to each other and to God."
     "And so, that radiant soul was finally sent down to Earth."
-    "This was the soul of the Holy Rabbi Yisroël Baäl Shem Tov."
+    "This was the soul of the Holy Rabbi Yisroël Baal Shem Tov."
     "For nine months, Sara carried him. But all that time, the baby was unusually still."
     "A baby usually kicks in his mother's womb, but not this one."
     "He was so eager to start doing {i}mitzvos{/i} that even inside his mother's womb, he fulfilled the {i}mitzvah{/i} of honoring his parents."
     "He was still, to avoid bothering his mother as she carried him."
     "That's the kind of {i}tsadik{/i} he was."
     "When he was finally born, he was healthy and sound. At eight days old, his circumcision was a joyous affair."
-    # el = Eliëzer, the Baäl Shem Tov's father
+    # el = Eliëzer, the Baal Shem Tov's father
     el "... be saved for the sake of His Covenant, which we set in our flesh. Blessed are You, Lord, Who makes the Covenant!"
-    # sr = Sara, the Baäl Shem Tov's mother
+    # sr = Sara, the Baal Shem Tov's mother
     sr "{i}Omein!{/i}"
     el "Our God and God of our forefathers, sustain this boy to me and my wife, and let his name be called in Israel - Yisroël, son of Eliëzer!"
     el "May his heart be open to Your Holy Torah like the entrance to the Temple - to learn, to teach, to guard and to perform it...."
@@ -243,11 +259,11 @@ label chapter1:
     "When he read how God called out to Shmuël the prophet, he longed for God to call to him the same way."
     "For him, learning was life, and life was learning."
     "\"It is a Tree of Life for those grasp onto it; happy are those who support it!\""
-    "But, even though he learned and felt more than probably anyone alive today, that was just a small part of who the Baäl Shem Tov was."
+    "But, even though he learned and felt more than probably anyone alive today, that was just a small part of who the Baal Shem Tov was."
     "Before Yisroël's father Eliëzer left this world, there were two things he told his beloved son."
     scene black with Dissolve(1.6)
     el "Yisroëlik..."
-    # yb = Yisroël, Baäl Shem Tov
+    # yb = Yisroël, Baal Shem Tov
     yb "Yes, Tatti?"
     el "Before I go, there are two... things..."
     el "...tell you, before I go."
@@ -319,7 +335,7 @@ label chapter1:
     zu "Maybe you'll grow up and learn the Secret yourself!"
     pn "... Oh!"
     "Pinny brightens up."
-    zu "Later, when Yisroël became the Baäl Shem Tov, he spread holy ideas, good deeds and happiness all over the world."
+    zu "Later, when Yisroël became the Baal Shem Tov, he spread holy ideas, good deeds and happiness all over the world."
     zu "Those things keep and light up the world today!"
     zu "The story, though, doesn't end there."
     zu "His mission was to bring the {i}Moshiäch.{/i}"
@@ -405,7 +421,7 @@ label chapter1:
     "Pinny has a tendency to make... interesting sound effects."
     "No one mentions it much, though. It just blends in so well with the conversation."
     "Sometimes, his entire side of the conversation is nothing but sound effects."
-    "A lot of the time, I think that the sound effects work better than words."
+    "For him, the sound effects often work better than words."
     pn "Well, I want to know everything, Heaven {i}and{/i} Earth!"
     me "Well, I want to know all that, plus infinity!"
     pn "Infinity plus one!"
@@ -430,6 +446,10 @@ label chapter1:
 
     "Whenever it comes to building things and using tools, Pinny is the expert."
     "I remember that back in kindergarten, he got in trouble because he took apart the teacher's chair with a screwdriver he brought that day."
+    "Right after recess, the teacher brought us back inside and tried to sit down."
+    "Teacher" "Aaah!"
+    "BANG!"
+    "Epic, that memory. Awesome. Totally epic."
     "He loves making pranks like that. So that he is always prepared, he carries around a combo tool with pliers, scissors, knives, screwdrivers, and other useful goodies."
 
     me "Okay. Could you give me another rope? I want to get started on the second level."
@@ -453,14 +473,19 @@ label chapter1:
     pn "Eighteen feet."
     "I glance at him, grin, then look out at the view again."
     me "Pretty precise."
+    "He nods and grins brightly in a satisfied way."
+    pn "Hmm-hmm. Yep."
     me "Why eighteen?"
-    pn "Dunno. {i}Chai,{/i} I guess."
+    pn "..."
+    pn "I dunno."
+    me "Hmm?"
+    pn "... Well... {i}Chai,{/i} I guess."
     "The numerical value for {i}chai,{/i} \"life,\" is 18."
     pn "I like being in the tree because I feel like I'm not tied down to the Earth, you know?"
     me "Yeah."
     me "I heard that students in the yeshiva will argue over who gets the top bunk, because they feel closer to Heaven that way."
     pn "Heh-heh."
-    "Pinny grins."
+    "I wouldn't have thought it possible, but Pinny grins even more broadly."
     pn "I think I'd like the top bunk, too."
 
     "Pinny picks up a twig, an begins carving it with his knife."
@@ -483,7 +508,8 @@ label chapter1:
     me "I think being high up is kinda the same. Physically. Spiritually."
     pn "Huh-weah? Why?"
     me "Like, we are high up right now, right? Look how far you can see!"
-    pn "Yeah! I can't see this much when I'm on the ground."
+    pn "Yeah..."
+    pn "When I'm on the ground, it's not the same. Can't see as much then."
     me "Yeah. When you go higher, you can see more stuff all around."
     me "Maybe it's the same spiritually."
     # Actually, because, it's that way spiritually, it's the same way physically. This higher idea will appear later.
@@ -495,8 +521,9 @@ label chapter1:
     "We both think some more."
     pn "You know..."
     pn "Maybe that's why we like climbing trees."
+    "I smile and gaze out over the park."
     
-    "I take a peek at Pinny's carving. It looks like he made a case for a {i}mezuzah{/i} scroll. He is making really small shavings to smooth it out."
+    "Then I take a peek at Pinny's carving. It looks like he made a case for a {i}mezuzah{/i} scroll. He is making really small shavings to smooth it out."
     
     me "Hey, Pinny?"
     pn "Ei?"
