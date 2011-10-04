@@ -44,5 +44,8 @@ init:
 
     # Chapter 2
 
-    $ inner = Character("Inner Voice", color="#888888")
+    $ inner = Character("Inner Voice", color="#668877")
+    $ zu_mem = zu.copy('Zusha', color="#888888", what_prefix="{i}", what_suffix="{/i}")
+    $ me_mem = me.copy('Binyomin', color="#888888", what_prefix="{i}", what_suffix="{/i}")
+    $ mom = Character("Mommy", color="#887070")
     $ ys = Character("Yosef", color="#ffcc99")
