@@ -499,6 +499,16 @@ label chapter2:
 
     "That pretty much ended the conversation."
     "I was still afraid of going insane, or worse, so I avoided the Zohar and other books about Kabbalah."
+    "I was particularly afraid of Acher's fate."
+    "If he, who was a great sage, could be led astray by the Secrets of the Torah, what about me?"
+    "My refuge was in Logic; my guide, Tradition."
+    "Not that I couldn't believe in anything beyond Logic."
+    "I believed that there was Truth there."
+    "But I was afraid to seek it, lest I lose my way in the realm beyond Logic."
+    "So, I studied the Revealed Wisdom."
+    "On the other hand, for the Hidden Wisdom, the Secrets of Torah, the Kabbalah -"
+    "I waited, yearning, wondering whether I would merit to taste of those fruits as well."
+    
 
     # $ BookQuote("Why should it bother you? He who decreed that oil should burn will decree that the vinegar should burn, too.",
     # "Gemoro, Ta'ainis 25a")
