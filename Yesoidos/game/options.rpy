@@ -14,7 +14,7 @@ init -1 python:
     ## cheat using developer tools.
 
     # config.developer is False by default
-    config.developer = True
+    #config.developer = True
 
     ## These control the width and height of the screen.
 
