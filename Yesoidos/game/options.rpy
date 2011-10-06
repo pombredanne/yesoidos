@@ -14,7 +14,7 @@ init -1 python:
     ## cheat using developer tools.
 
     # config.developer is False by default
-    #config.developer = True
+    config.developer = True
 
     ## These control the width and height of the screen.
 
@@ -56,11 +56,11 @@ init -1 python:
         widget_hover = "#dda570",
 
         ## The color of the text in a widget.
-        widget_text = "#E5DFDF",
+        widget_text = "#ffeebb",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#ffffff",
+        widget_selected = "#fffff8",
 
         ## The color of a disabled widget face. 
         disabled = "#ab6038",
@@ -86,7 +86,7 @@ init -1 python:
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
-        rounded_window = False,
+        rounded_window = True,
 
         text_size = 36,
         small_text_size = 26, #file picker text size

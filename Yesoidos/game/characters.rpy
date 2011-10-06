@@ -36,6 +36,7 @@ init:
                      what_outlines=[(3, "#000000", 2, 2),(3,"#111", 2, 2)])
     $ st = storyChar.copy("Satan")
     $ mc = storyChar.copy("Michoël")
+    $ en = storyChar.copy("Eliyahu")
     $ el = storyChar.copy("Eliëzer")
     $ sr = storyChar.copy("Sara")
     $ yb = storyChar.copy("Yisroël")

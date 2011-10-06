@@ -197,7 +197,8 @@ label chapter1:
     hs "They must be tested first!"
     show satan with dissolve
     st "My Lord!"
-    st "Since I was created to test Mankind, I hereby volunteer myself to test Eliëzer and Sara."
+    st "You created me to test Mankind."
+    st "I am ready to serve. Allow me to test Eliëzer and Sara."
     show michoel angry with dissolve
     mc "No!"
     mc "You will design a test too difficult to withstand!"
@@ -210,7 +211,8 @@ label chapter1:
     with dissolve
     hs "Then it is decided."
     hs "Let Eliyahu the Prophet step forth!"
-    hs "It is hereby decreed that Eliyahu shall test Eliëzer and Sara's worthiness."
+    en "Master. I stand ready to do Your Will."
+    hs "Eliyahu. You shall descend to test Eliëzer and Sara's worthiness."
     hs "It is further decreed that if Eliëzer and Sara pass the test..."
     hs "...this soul shall be granted to them, immediately, to raise as their son!"
     hide satan
@@ -449,10 +451,14 @@ label chapter1:
     "Right after recess, the teacher brought us back inside and tried to sit down."
     "Teacher" "Aaah!"
     "BANG!"
-    "Epic, that memory. Awesome. Totally epic."
+    "Epic, that memory. Awesome."
+    "Totally epic."
     "He loves making pranks like that. So that he is always prepared, he carries around a combo tool with pliers, scissors, knives, screwdrivers, and other useful goodies."
 
-    me "Okay. Could you give me another rope? I want to get started on the second level."
+    me "Okay. Could you give me another rope?"
+    "Surprised, he cocks his head."
+    pn "Huah? Already?"
+    me "Yeah. I'm ready to start the second level."
     pn "Aha."
     "He looks around and finds the rope behind him."
     pn "Haaa!"
@@ -488,7 +494,7 @@ label chapter1:
     "I wouldn't have thought it possible, but Pinny grins even more broadly."
     pn "I think I'd like the top bunk, too."
 
-    "Pinny picks up a twig, an begins carving it with his knife."
+    "After thinking about that for a while, Pinny picks up a twig, an begins carving it with his knife."
     "We just sit there, me watching, Pinny whittling."
 
     me "Hey, Pinny? How do you find God?"
