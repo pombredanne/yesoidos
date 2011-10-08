@@ -6,7 +6,7 @@ label chapter1:
     pause
     scene black with dissolve
     show text(bookText(
-        "Tsadikim are motivated [solely] by their good nature, as it is written, \"My heart is a void within me,\" i.e., void of an evil nature....", 
+        "Tsadikim are motivated [[solely] by their good nature, as it is written, \"My heart is a void within me,\" i.e., void of an evil nature....", 
         "Rabbi Shneur Zalmen of Liädi", 
         "Likkutei Amarim")) with dissolve
     pause
@@ -391,7 +391,7 @@ label chapter1:
 #########################
 
     scene black with slowDissolve
-    show text bookText("[The Torah] is more precious than pearls; all your desires cannot compare to it.... It is a tree of life to those who grasp onto it, and happy are all who support it.", author="Proverbs 3:15, 18") with dissolve
+    show text bookText("[[The Torah] is more precious than pearls; all your desires cannot compare to it.... It is a tree of life to those who grasp onto it, and happy are all who support it.", author="Proverbs 3:15, 18") with dissolve
     pause
     scene black with dissolve
     show text chapterText(title="The Tree") with dissolve

@@ -18,7 +18,10 @@ label chapter2:
     "But that wasn't all."
     "When the recession hit, my dad lost his office job."
     "Without that income, my parents could no longer afford the tuition for a Jewish education."
-    "So, when I was ten, I went into public school. It was a big shock."
+    "So, when I was ten, I went into public school."
+    "I didn't want to."
+    "Pinny and Yossi and my other friends were still in the Jewish school."
+    "Going to the new school was a big shock."
     "Everyone was talking about what was \"in.\""
     "Being \"in\" was a concept that I had never seen or heard of before."
     "It seemed that to be \"in,\" you had to know the latest rap song and be able to break dance and play sports."
@@ -38,7 +41,7 @@ label chapter2:
     "The loneliness, the darkness around me now didn't exist back then."
     "Now, it seems to cast a shadow over everything."
     "Even physically, the grass and the sky don't seem to shine as brightly as in my memories."
-    inner "Do you still even want to be a tsadik?"
+    shout "{i}Do you still even want to be a tsadik?{/i}"
     me "..."
     me "Yes... I think."
     me "Well, I {i}want to{/i} want to be one..."
@@ -264,7 +267,7 @@ label chapter2:
     "Should I ignore it?"
     "It might die down eventually."
     "If I manage to outlast it."
-    inner "What do you want to be?"
+    shout "{i}What do you want to be?{/i}"
     "But is the question it asks really bad?"
     inner "What do you want to be?"
     "On the other hand, is that really what it's asking?"
@@ -362,7 +365,7 @@ label chapter2:
     me "How do I give it direction?"
     "... And so the day wears on. The questions cycle in my mind."
     "They are still circling in my mind when I meet Yossi."
-    "Since Yossi lives nearby, we see each other fairly often."
+    "Since Yossi lives nearby, we still see each other fairly often."
     scene bg forestPavedPath1 with dissolve
     me "Hmm? Oh! Hi Yossi!"
     ys "Benny!"
@@ -521,7 +524,7 @@ label chapter2:
     "\"Scripture says of him, \'Precious in the eyes of God is the death of His pious.\'\""
     "\"Ben Zoma peered in and became insane.\""
     "\'Scripture says of him, \"Have you found honey? Eat what is enough for you, so that you not be filled with it and vomit it.\'\""
-    "\"Acher cut down the plantings, [going astray in heresy].\""
+    "\"Acher cut down the plantings, [[going astray in heresy].\""
     "\"Rabbi Akiva came out in peace.\""
     #Scene change back to normal
     "This is why I once asked Zusha whether I should learn Kabbalah."
@@ -560,18 +563,21 @@ label chapter2:
     "I waited, yearning, wondering whether I would merit to enter the Garden, to taste of those fruits as well."
     
 #########################
-    scene black with slowDissolve
+    scene black
     show text(bookText(
-        "He said to her, \"My daughter, why are you sad?\"\nShe said to him, \"I confused the jar of vinegar for the jar of oil, and I lit the lights for Shabbos with it!\"\nSaid he to her, \"Why should it bother you? He who decreed that oil should burn will decree that the vinegar should burn, too.\"\n...It burned and lasted the entire day until they took a flame for havdala from it.",
-        "Talmud, Tractate Taäinis 25a"))
+        "{b}\"He wraps [[Himself with] Light like a garment...\"{/b}\n\nThe Garment is the hinderpart of Wisdom, the revealed aspect of Torah....\n\n[[On the other hand,] the innermost aspect of Wisdom... is the \"Light\" which is clothed in the \"Garment.\" For this is the Light that was created on the First Day, which was \"hidden away for the Tsadikim.\"\n\nAnd where was it hidden away? In the Torah...",
+        "Tsemach Tsedek",
+        "Yahel Or, on Psalms 104:2"))
+    with slowDissolve
     pause
     scene black with dissolve
-    show text chapterText(title="The Veil") with dissolve
+    show text chapterText(title="The Veil") 
+    with dissolve
     pause
     scene black with dissolve
     "Somehow, in a weird way, things began to click as I did more mitzvos."
     "It was very subtle, and I ignored it at first."
-    "It didn't make much sense. Mitvos are actions. Understanding is in the realm of thought."
+    "It didn't make much sense. Mitzvos are actions. Understanding is in the realm of thought."
     "They can't be connected. At the very least, thought leads to action. Not the other way around. Right?"
     "It must be something else."
     "Or is it?"
@@ -585,24 +591,24 @@ label chapter2:
     with dissolve
     pause
     me "Okay. Back to number four."
-    $mishna = bookText("He used to say, \"Adopt His Will as your will, so that He will make your will as His. Nullify your will before His Will, so that He will nullify the will of others before your will.\"", "Mishna, Tractate Avos 2:4")
+    $mishna = bookText("He used to say, \"Make His Will as your will, so that He make your will as His Will.\"", "Mishna, Tractate Avos 2:4")
     show text(mishna)
     with dissolve
     pause
-    me "What does {i}that{/i} mean? Isn't that kind of egotistical?"
+    me "What does {i}that{/i} mean? Isn't that kind of egotistical? \"I'll do what You want, so that You do what I want?\""
     me "On the other hand, if your will is already nullified to God's anyway, is it still egotistical?"
-    me "But then, if your will at that point is already the same as God's Will..."
-    me "... why does it say, \"so that He will make your will as His\"? Aren't they already the same? What's left to do?"
+    me "But then, if that's so, and your will at that point is already the same as God's Will..."
+    me "... why does it say, \"so that He will amke your will as His\"? Aren't they already the same? What's left to do?"
     me "Or are they not the same yet?"
     me "Hanh."
     me "Maybe Bartenura says something..."
-    $bartenura = bookText("{b}Adopt His Will as your will.{/b} Use your posessions for the Desires of Heaven, by your own will, as if you were using them for your own desires. For if you do this, He will make your will like His Will. That is to say, He will give you good, generously.")
+    $bartenura = bookText("{b}Make His Will as your will.{/b} Expend your posessions for the Desires of Heaven, by your own will, as if you were expending them for your own desires. For if you do this, He will make your will like His Will. That is to say, He will give you good, generously.")
     show text(bartenura)
     with dissolve
     pause
     me "Gyah. He didn't answer the question."
     me "Or maybe he did."
-    me "\"Use your possessions for... Heaven... as if... for your own desires.\""
+    me "\"Expend your possessions for... Heaven... as if... for your own desires.\""
     me "Does the ego still exist at that point?"
     me "It's hard to imagine it could."
     show text(mishna)
@@ -617,6 +623,10 @@ label chapter2:
     me "Oh! Maybe that's why he said \"{i}{b}as if{/b}{/i} you were using them for your own desires.\" The desires aren't one yet."
     me "But then, is the self-nullification really complete enough?"
     me "Well, you are going so far as to take concrete action...."
+    show text(bookText(
+        "{i}Nullify your will before His Will, so that He will nullify the will of others before your will.{/i}",
+        "Ibid."))
+    pause
     me "Ooof. I need a break."
     hide text with dissolve
     "There is an answer. I know it."
@@ -629,6 +639,7 @@ label chapter2:
     "I stand up and step around the chair, hugging him."
     me "Good to see you!"
     pn "Yeah, and you."
+    "It's been months and months since I last saw him. He lives far outside the city."
     me "Let's get an ice cream!"
     pn "Ice cream? Is Yossi around?"
     me "Good point. Let's get him, too."
@@ -647,8 +658,13 @@ label chapter2:
     pn "Scary..."
     me "Ah, so, ice cream, ice cream. Let's go."
 
+    "<More to come...>"
+
 
     #s = BookStr("The Almighty saw that the tsadikim were few so He planted them in every generation.",
     #"Gemoro, Yoima 38b")
     
+    #show text(bookText(
+    #    "He said to her, \"My daughter, why are you sad?\"\nShe said to him, \"I confused the jar of vinegar for the jar of oil, and I lit the lights for Shabbos with it!\"\nSaid he to her, \"Why should it bother you? He who decreed that oil should burn will decree that the vinegar should burn, too.\"\n...It burned and lasted the entire day until they took a flame for havdala from it.",
+    #    "Talmud, Tractate Taäinis 25a"))
     return
