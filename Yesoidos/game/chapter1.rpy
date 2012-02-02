@@ -62,7 +62,7 @@ label chapter1:
     scene bg soul1 with mediumDissolve
     "He went to His innermost, supernal treasuries, carefully looked through it, and chose - a special soul for Eliëzer and Sara to raise as a son."
     "This was not any ordinary soul."
-    "When Adam ate from the Tree of Knowledge, there were certain precious souls that fled and escaped, never tasting of the fruit of the Tree."
+    "When Adam ate from the Tree of Knowledge of Good and Evil, there were certain precious souls that fled and escaped, never tasting of the fruit of the Tree."
     "When there are times of trouble, God takes one of these pure, untainted souls and sends them to Earth."
     "This radiant, innocent soul was one of those few."
     "He was just about to send the soul down to Earth..."
@@ -81,7 +81,7 @@ label chapter1:
     mc "You are afraid that its radiance and holiness could threaten your power!"
     show michoel with dissolve
     mc "Are you really expecting us to accept your word as objective? As the truth of truths?"
-    mc "If the soul were to be sent down, it could bring the era of {i}Moshiäch!{/i} The culmination of all God's efforts in Creation!"
+    mc "If the soul were to be sent down, it could bring the era of {i}Moshiäch!{/i} The culmination of all of God's efforts in Creation!"
     mc "Of course you wouldn't want that!"
     mc "No one would die, no wars would be fought, and no one would wrong another again."
     mc "The world would be filled with holy Light and knowledge of God!"
@@ -129,7 +129,8 @@ label chapter1:
     st "Yes! I {i}want,{/i} just like you all, that my Darkness be subdued."
     "More confused silence."
     show satan with dissolve
-    st "Here, in Oilom HoËmes, in the Realm of Truth, dishonesty does not exist. Search through me and see that this is true!"
+    st "Here, in Oilom HoËmes, in the Realm of Truth, dishonesty does not exist."
+    st "Search through me and see that I speak the truth!"
     st "It would tear any angel apart to see Man sin."
     show satan small with dissolve
     st "But can you imagine how horrible it is to {i}cause{/i} him to sin?"
@@ -146,8 +147,21 @@ label chapter1:
     mc "I sympathize with your lot. But, what is your point?"
     mc "If you truly desire the revelation of God, why do you prevent us from sending down this pure, radiant soul, which will accomplish exactly that?"
     show satan with dissolve
-    st "The greatest Light comes from Darkness."
-    st "To merit and appreciate such a great Light, an appropriate amount of Darkness must be subdued first."
+    st "Allow me to explain."
+    st "It's no big surprise if we angels in Heaven, constantly irradiated with the Light of the Infinite One, can serve God. Obviously we can do it."
+    st "Remember what Moshe said at Sinai, when he came to take the Torah to Earth?"
+    st "He was right. We don't struggle with an Evil Inclination like humans do. Temptations and lusts for the {i}klipos{/i}, those shells that cover and hide Godliness, are completely foreign to us."
+    st "After all, the {i}klipos{/i} don't even exist here. We barely know about them."
+    st "Of course {i}we{/i} would never falter in serving God!"
+    st "Only humankind has the challenge of Darkness."
+    show satan yearning with dissolve
+    st "When a human stands up to the Darkness! Despite his Evil Inclination!"
+    st "- \"The greatest Light comes from Darkness!\" -"
+    st "That is when the glory of God rises through all the worlds!"
+    show satan with dissolve
+    st "Now, regarding our case..."
+    st "It is obvious that to merit and appreciate such a great Light, an {i}appropriate{/i} amount of Darkness must be subdued first."
+    "Murmurs arose in the court."
     shout "{i}Eliëzer and Sara are not ready for this soul yet.{/i}"
     "At this, Michoël exploded."
     show michoel angry with dissolve
@@ -161,7 +175,7 @@ label chapter1:
     mc "...for these reveal the True Light - the pure, infinite Light of the Ein Sof Himself!"
     show michoel with dissolve
     mc "This is so, even of one mitzvah!"
-    mc "And even more so - with not one, but many mitzvos!"
+    mc "How much more so - {i}kal vechomer!{/i} - with not one, but many mitzvos!"
     mc "Look at this dazzling Light that they have brought to the world!"
     mc "Consider also the fact that they are actual {i}tsadikim!{/i} They have already nullified the Darkness inside of them!"
     mc "These are not \"just anybody.\""
@@ -184,6 +198,9 @@ label chapter1:
     st "Serving God with money is just one way. They must also show that they serve God with all their heart and soul!"
     show michoel angry with dissolve
     "Protests arose in court as the angels argued back and forth."
+    "Angel" "Haven't they already shown that?!"
+    "Another Angel" "Satan is suggesting that they haven't yet."
+    "Angel" "Impossible!"
     "Then a great voice arose in the heavenly court."
     # hs = Hashem, God. 
     hs "Silence!"
@@ -204,7 +221,7 @@ label chapter1:
     mc "You will design a test too difficult to withstand!"
     show michoel with dissolve
     mc "Someone else should be sent, not you."
-    "There was a murmur of agreement about the court."
+    "An indistinct sound of agreement moved about the court."
 
     show michoel small
     show satan small
@@ -243,7 +260,7 @@ label chapter1:
     st "The boy grows fast."
     st "Too fast."
     st "I must slow his progress. By God's decree, I cannot take the boy's life. But..."
-    st "It is the mother who instills love in the child. Maybe by taking her away, I can halt the boy's progress."
+    st "It is the mother who instills love in the child. Maybe by taking her away, I can halt the boy's growth."
     st "Wisdom comes from the father. I can wait a bit to claim him; the boy is too young to learn Torah right now."
     
     hide satan
@@ -267,24 +284,27 @@ label chapter1:
     el "Yisroëlik..."
     # yb = Yisroël, Baal Shem Tov
     yb "Yes, Tatti?"
-    el "Before I go, there are two... things..."
-    el "...tell you, before I go."
+    el "There are two... things..."
+    el "... before I... go."
     yb "Tatti, you can't go!"
     el "Listen, Yisroëlik..."
+    yb "Tatti..."
     el "Love... every Jew. What he is, where he is... doesn't matter. Love them all.... as yourself. Literally. As yourself."
     yb "Yes, Tatti."
     el "Don't be afraid of... anything. Only fear... Hashem..."
     yb "Yes, Tatti."
     el "... and nothing else."
     yb "Yes."
-    el "It's time for... me, now."
+    el "It's time... for... me, now."
     yb "Tatti!"
     el "Yisroëlik. Don't cry."
     yb "Tatti! No! Stay!"
     el "{i}Shema, Yisroëil... Adoinoi Eloiheinu... Adoinoi... echod....{/i}"
     yb "Tatti?"
-    yb "TATTIII!!! No! Nooooo!"
-
+    yb "{b}TATTIII!!!{/b}"
+    show text "{i}{b}No!{/b} Nooooo!{/i}"
+    pause 1.6
+    hide text with slowDissolve
     "Little Yisroël carried those lessons with him for the rest of his life." 
     "He treated everyone nicely and made friends with everyone. He would smile and cheer everyone up."
     "He loved everyone and everything, because they were all creations the Holy One, Blessed Be He."
@@ -301,12 +321,12 @@ label chapter1:
     yb "{i}Sholom aleichem!{/i}"
     # sz = Shlomo Zalmen
     sz "{i}Aleichem sholom!{/i} What are you doing in the forest alone?"
-    yb "Just hiking a bit."
-    sz "Hiking? There are wild animals here. Aren't you afraid?"
+    yb "Just... well, wandering around."
+    sz "Wandering around? There are wild animals here. Aren't you afraid?"
     yb "No. Tatti told me not to be afraid of anything, except for {i}HaKodosh Boruch Hu.{/i}"
     sz "Oh? Where is your tatti?"
     yb "He -"
-    "The child broke off."
+    "Yisroël choked and broke off suddenly, his eyes growing moist."
     "Silence."
     sz "What's his name?"
     yb "... E- Eliëzer."
@@ -337,13 +357,19 @@ label chapter1:
     zu "Maybe you'll grow up and learn the Secret yourself!"
     pn "... Oh!"
     "Pinny brightens up."
-    zu "Later, when Yisroël became the Baal Shem Tov, he spread holy ideas, good deeds and happiness all over the world."
+    zu "Later, when Yisroël became the Baal Shem Tov, he spread Godly thoughts, good deeds and happiness all over the world."
     zu "Those things keep and light up the world today!"
     zu "The story, though, doesn't end there."
     zu "His mission was to bring the {i}Moshiäch.{/i}"
     zu "{i}Melech HaMoshiäch{/i} didn't come then."
     zu "But, he is {i}very{/i} close today. So close!"
-    zu "Just do one more {i}mitzvah,{/i} and you could tip the scales to bring {i}Moshiäch{/i} right now!"
+    zu "Just do one more minute of {i}Toirah!{/i} One more {i}mitzvah!{/i} One more kind deed! You could tip the scales to bring {i}Moshiäch{/i} - {i}right now!{/i}"
+    "A song began."
+    ch "We want Moshiäch now! We want Moshiäch now!"
+    ch "We want Moshiäch now! We don't want to wait!"
+    ch "Am Yisroël, have no fear! Moshiäch will be here this year!"
+    ch "We want Moshiäch now! We want..."
+    "After the song ended, it was time for recess."
     zu "Alkay, {i}kinderlech.{/i} That's all for today! You can go!"
 
     "All my friends run to the field to play soccer."
@@ -386,7 +412,7 @@ label chapter1:
 
     "I beam at him. Then I chase after my friends."
 
-    me "Oi! Pinny! Yossi! Wait up!" 
+    me "Oy! Pinny, Yossi! Wait up!" 
 
 #########################
 

@@ -693,7 +693,7 @@ label chapter2:
     pn "Yeah. -AHH!"
     "Faster than I could blink, Yossi jabbed the sides of his belly. Then, after a moment of target acquisition-"
     pn "EEK!"
-    "-he got the button."
+    "-he got the (belly)button."
     pn "I take it back! I take it back!"
     ys "Hahaha!"
     me "I'll have a medium vanilla with a chocolate sugar cone."
