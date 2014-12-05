@@ -31,7 +31,7 @@ init:
                      # screen_width * (1-xmargin*2) - 2*xpadding
                      what_minwidth=802, 
                      what_size=70,
-                     what_prefix="{font=Speedline.ttf}",
+                     what_prefix="{font=fonts/Speedline.ttf}",
                      what_suffix="{/font}",
                      what_outlines=[(3, "#000000", 2, 2),(3,"#111", 2, 2)])
     $ st = storyChar.copy("Satan")
