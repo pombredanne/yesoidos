@@ -1,0 +1,10 @@
+.DS_Store
+log.txt
+Yesoidos-*-dists/
+Yesoidos/dialogue.*
+Yesoidos/game/saves/
+Yesoidos/tmp/
+*.rpyb
+*.rpyc
+*.pyc
+
