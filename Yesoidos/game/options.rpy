@@ -160,7 +160,7 @@ init -1 python:
     ## The default size of text.
 
     style.default.size = 36
-    style.file_picker_text_size = 28
+    #style.file_picker_text_size = 28
 
     ## Fix up preference VBoxes. (renpy-dir/common/_layout/classic_preferences.rpym)
     style.prefs_left.xpos = 249   # screen_width/2[512] - button_width[250] - 13

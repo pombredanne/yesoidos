@@ -1,7 +1,7 @@
 # Yesoidos v<version>
 # <filename>
 #
-# Copyright (c) 2010-2011 by Musashi <astrochess@gmail.com>
+# Copyright (c) 2010-2013 by Musashi <astrochess@gmail.com>
 # All rights reserved.
 #
 # This file is part of Yesoidos.
@@ -13,11 +13,11 @@
 #
 # The literary content of Yesoidos is copyrighted. License is granted to
 # redistribute and copy it, provided that this copyright notice appears with it.
-
+#
 # The literary content is the property of the author and is not released under
 # GPL. This includes, but is not limited to, the code in the files chapter*.rpy,
-# where * is an integer chapter number. These are copyrighted by the author,
-# all rights reserved.
+# where * is a chapter number. These are copyrighted by the author, all rights 
+# reserved.
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of

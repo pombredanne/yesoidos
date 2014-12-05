@@ -65,7 +65,7 @@ label chapter1:
     "When Adam ate from the Tree of Knowledge of Good and Evil, there were certain precious souls that fled and escaped, never tasting of the fruit of the Tree."
     "When there are times of trouble, God takes one of these pure, untainted souls and sends them to Earth."
     "This radiant, innocent soul was one of those few."
-    "He was just about to send the soul down to Earth..."
+    "The Holy One was just about to send the soul down to Earth..."
     "...when a certain angel saw the soul that was chosen and spoke up."
     
     # st = Satan, the angel
@@ -135,7 +135,7 @@ label chapter1:
     show satan small with dissolve
     st "But can you imagine how horrible it is to {i}cause{/i} him to sin?"
     st "Who, aside from the One, knows better than I how much damage and chaos Man causes when he sins?"
-    st "How much pain this causes the Shechinah?"
+    st "How much pain this causes the Shechinah, the Divine Presence?"
     st "Yet, I am commanded by the Creator..."
     st "...to make the Darkness..."
     show satan yearning with dissolve
@@ -148,12 +148,13 @@ label chapter1:
     mc "If you truly desire the revelation of God, why do you prevent us from sending down this pure, radiant soul, which will accomplish exactly that?"
     show satan with dissolve
     st "Allow me to explain."
-    st "It's no big surprise if we angels in Heaven, constantly irradiated with the Light of the Infinite One, can serve God. Obviously we can do it."
+    st "It's no big surprise if we angels in Heaven, constantly irradiated with the Light of the Infinite One, can serve God."
+    st "Obviously we can do it. We see Him everywhere. We scarcely have a choice."
     st "Remember what Moshe said at Sinai, when he came to take the Torah to Earth?"
     st "He was right. We don't struggle with an Evil Inclination like humans do. Temptations and lusts for the {i}klipos{/i}, those shells that cover and hide Godliness, are completely foreign to us."
     st "After all, the {i}klipos{/i} don't even exist here. We barely know about them."
     st "Of course {i}we{/i} would never falter in serving God!"
-    st "Only humankind has the challenge of Darkness."
+    st "Only humankind, in the Physical World, has the challenge of Darkness."
     show satan yearning with dissolve
     st "When a human stands up to the Darkness! Despite his Evil Inclination!"
     st "- \"The greatest Light comes from Darkness!\" -"
@@ -285,7 +286,7 @@ label chapter1:
     # yb = Yisroël, Baal Shem Tov
     yb "Yes, Tatti?"
     el "There are two... things..."
-    el "... before I... go."
+    el "... before I go."
     yb "Tatti, you can't go!"
     el "Listen, Yisroëlik..."
     yb "Tatti..."
@@ -315,7 +316,7 @@ label chapter1:
     "And that was how he met a hidden {i}tsadik.{/i}"
     "Thirty-six hidden {i}tsadikim{/i} are alive at all times, scattered around the world." 
     "They exist to fight evil, and to serve as a beacon of hope for the downtrodden."
-    "The entire World exists in their merit, for it is through their mighty efforts that the Scales of Justice balance, ever so finely."
+    "The entire World exists in their merit, for it is through their mighty efforts that the global Scales of Justice balance, ever so finely."
     "Rabbi Shlomo Zalmen was one of these heroes, and he met little Yisroël one day as the boy wandered in the forest."
     
     yb "{i}Sholom aleichem!{/i}"
@@ -330,9 +331,9 @@ label chapter1:
     "Silence."
     sz "What's his name?"
     yb "... E- Eliëzer."
-    sz "Oh... Eliëzer. I'm sorry."
-    yb "It's alright."
-    sz "He was a great man, and a good friend."
+    "Shlomo Zalmen raised an eyebrow."
+    sz "Eliëzer?"
+    sz "He was a great man - a leader! And a good friend."
     "A smile spread across little Yisroël's face."
     sz "Do you want to learn something with me?"
     yb "Yes! Yes!"
@@ -408,6 +409,8 @@ label chapter1:
     "I nod eagerly."
 
     zu "Your mommy and tatti should be proud."
+    zu "The way to do it is to grow every day. Reach to Infinity."
+    zu "If you do this with all your heart, God will reach down to you."
     zu "Go for it!"
 
     "I beam at him. Then I chase after my friends."
@@ -417,7 +420,7 @@ label chapter1:
 #########################
 
     scene black with slowDissolve
-    show text bookText("[[The Torah] is more precious than pearls; all your desires cannot compare to it.... It is a tree of life to those who grasp onto it, and happy are all who support it.", author="Proverbs 3:15, 18") with dissolve
+    show text bookText("[[The Torah] is more precious than pearls; all your desires cannot compare to it.... It is a Tree of Life to those who grasp onto it, and happy are all who support it.", author="Proverbs 3:15, 18") with dissolve
     pause
     scene black with dissolve
     show text chapterText(title="The Tree") with dissolve
@@ -442,14 +445,14 @@ label chapter1:
     me "Wouldn't it be really cool to be a prophet?" 
     pn "And see angels and stuff?"
     me "Yeah."
-    pn "That would be totally awesome!"
+    pn "That would be {i}totally awesome!{/i}"
     "Pinny seems satisfied with the branch's strength. He thinks, then rubs his hands."
     me "I wanna know what goes on in Heaven."
     pn "Hui?"
     "Pinny has a tendency to make... interesting sound effects."
     "No one mentions it much, though. It just blends in so well with the conversation."
     "Sometimes, his entire side of the conversation is nothing but sound effects."
-    "For him, the sound effects often work better than words."
+    "For him, the noises often work better than words."
     pn "Well, I want to know everything, Heaven {i}and{/i} Earth!"
     me "Well, I want to know all that, plus infinity!"
     pn "Infinity plus one!"
@@ -457,6 +460,7 @@ label chapter1:
     pn "Infinity plus a bajillion!"
     me "... Wait, does infinity plus anything even make sense?"
     pn "Yuh-huh!"
+    "He thought for a moment."
     pn "... Well -"
     pn "- no. Phooey! You got me!"
     pn "But I want to know all that, plus infinity, too!"
@@ -506,10 +510,10 @@ label chapter1:
     "I glance at him, grin, then look out at the view again."
     me "Pretty precise."
     "He nods and grins brightly in a satisfied way."
-    pn "Hmm-hmm. Yep."
+    pn "Pa-hah. Yep."
     me "Why eighteen?"
     pn "..."
-    pn "I dunno."
+    pn "{i}I{/i} dunno."
     me "Hmm?"
     pn "... Well... {i}Chai,{/i} I guess."
     "The numerical value for {i}chai,{/i} \"life,\" is 18."
@@ -526,6 +530,8 @@ label chapter1:
     me "Hey, Pinny? How do you find God?"
     "He stops whittling for a moment. Then, with a straight face -"
     pn "Well - God is a kind of invisible superman in the sky, and that's how He rules over everything."
+    me "Eh?"
+    pn "So, you gotta have a cape, and start jumping like crazy."
     "I squint at him questioningly."
     pn "{b}NOT!!!{/b}"
     "We laugh together."
