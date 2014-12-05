@@ -23,14 +23,14 @@ init:
     image bg soul1 = "bg/soul1.png"
 
     # Satan
-    image satan = "satan.png"
-    image satan small = "satan.small.png"
-    image satan scheming = "satan.scheming.png"
-    image satan yearning = "satan.yearning.png"
-    image satan angry = "satan.angry.png"
+    image satan = "char/satan.png"
+    image satan small = "char/satan.small.png"
+    image satan scheming = "char/satan.scheming.png"
+    image satan yearning = "char/satan.yearning.png"
+    image satan angry = "char/satan.angry.png"
     
     # Michoel
-    image michoel = "michoel.png"
-    image michoel angry = "michoel.angry.png"
-    image michoel small = "michoel.small.png"
-    image michoel inspired = "michoel.inspired.png"
+    image michoel = "char/michoel.png"
+    image michoel angry = "char/michoel.angry.png"
+    image michoel small = "char/michoel.small.png"
+    image michoel inspired = "char/michoel.inspired.png"
