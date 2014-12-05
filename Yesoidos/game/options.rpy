@@ -149,32 +149,34 @@ init -1 python:
     #########################################
     ## These let you customize the default font used for text in Ren'Py.
 
-    ## The file containing the default font.
-
-    style.button_text.size = 36
-    style.button_text.font = "WorstveldModBold.ttf"
-    style.default.font = "WorstveldMod.ttf"
-    config.font_replacement_map["WorstveldMod.ttf", False, True] = ("WorstveldModOblique.ttf", False, False)
-    config.font_replacement_map["WorstveldMod.ttf", True, False] = ("WorstveldModBold.ttf", False, False)
-    config.font_replacement_map["WorstveldMod.ttf", True, True] = ("WorstveldModBoldOblique.ttf", False, False)
-
-    ## The default size of text.
-
     style.default.size = 36
-    #style.file_picker_text_size = 28
-
+    style.button_text.size = 36
+    
+    fonts_dir = 'fonts/'
+    style.button_text.font = fonts_dir + "WorstveldModBold.ttf"
+    style.default.font = fonts_dir + "WorstveldMod.ttf"
+    
+    def font_tuple(name):
+        return (fonts_dir + name + '.ttf', False, False)
+    
+    font_map = {
+        (style.default.font, False, True): font_tuple("WorstveldModOblique"),
+        (style.default.font, True, False): font_tuple("WorstveldModBold"),
+        (style.default.font, True, True): font_tuple("WorstveldModBoldOblique"),
+    }
+    config.font_replacement_map.update(font_map)
+    
+    
     ## Fix up preference VBoxes. (renpy-dir/common/_layout/classic_preferences.rpym)
-    style.prefs_left.xpos = 249   # screen_width/2[512] - button_width[250] - 13
-    style.prefs_center.xpos = 512 # screen_width/2[512]
-    style.prefs_right.xpos = 775  # screen_width/2[512] + button_width[250] + 13
-
+    column_width = 250 + 13  # button_width[250] + 13
+    style.prefs_center.xpos = config.screen_width//2
+    style.prefs_left.xpos = style.prefs_center.xpos - column_width
+    style.prefs_right.xpos = style.prefs_center.xpos + column_width
+    
     style.prefs_frame.top_margin = 100
 
     ## Fix up file picker button heights. (renpy-dir/common/_layout/classic_load_save.rpym)
     style.large_button.yminimum = 62
-
-    ## Note that these only change the size of some of the text. Other
-    ## buttons have their own styles.
 
 
     #########################################
@@ -279,28 +281,21 @@ init -1 python hide:
     config.default_fullscreen = False
 
     ## The default text speed in characters per second. 0 is infinite.
-
     config.default_text_cps = 0
-
-    #########################################
-    ## More customizations can go here.
     
-    
-
 
 ## This section contains information about how to build your project into
 ## distribution files.
 init python:
-
-    ## The name that's used for directories and archive files. For example, if
-    ## this is 'mygame-1.0', the windows distribution will be in the
-    ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "Yesoidos-" + version
-
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
     ## users can click 'mygame.exe' to start the game.
     build.executable_name = "Yesoidos"
+
+    ## The name that's used for directories and archive files. For example, if
+    ## this is 'mygame-1.0', the windows distribution will be in the
+    ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
+    build.directory_name = build.executable_name + "-" + version
 
     ## If True, Ren'Py will include update information into packages. This
     ## allows the updater to run.

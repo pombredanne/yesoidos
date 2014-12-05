@@ -4,6 +4,8 @@ Yesoidos-*-dists/
 Yesoidos/dialogue.*
 Yesoidos/game/saves/
 Yesoidos/tmp/
+Yesoidos/errors.txt
+Yesoidos/traceback.txt
 *.rpyb
 *.rpyc
 *.pyc
