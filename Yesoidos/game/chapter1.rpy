@@ -271,9 +271,9 @@ label chapter1:
     "The poor child Yisroël was on his own."
     "However, that did not stop his learning and growth."
 
-    scene bg flowerField1 with slowDissolve:
-        xalign 1.0
-        linear 35.0 xalign 0.0
+    scene bg flowerField1 flip with slowDissolve:
+        xalign 0.0
+        linear 20.0 xalign 1.0
     "His childhood was an intensely Godly experience. Having learned to read the Holy Tongue as fluently as an adult, {i}seforim{/i} like the Tehilim, Gemoro and the Zohar came alive for him as he lovingly whispered their teachings."
     "When he read \"You are my son - I have begotten you today,\" in the Tehillim of King David, he heard God telling him that he was God's son."
     "When he read how God called out to Shmuël the prophet, he longed for God to call to him the same way."
@@ -282,13 +282,13 @@ label chapter1:
     "But, even though he learned and felt more than probably anyone alive today, that was just a small part of who the Baal Shem Tov was."
     "Before Yisroël's father Eliëzer left this world, there were two things he told his beloved son."
     scene black with Dissolve(1.6)
-    el "Yisroëlik..."
+    el "'Srulik..."
     # yb = Yisroël, Baal Shem Tov
     yb "Yes, Tatti?"
     el "There are two... things..."
     el "... before I go."
     yb "Tatti, you can't go!"
-    el "Listen, Yisroëlik..."
+    el "Listen, 'Srulik..."
     yb "Tatti..."
     el "Love... every Jew. What he is, where he is... doesn't matter. Love them all.... as yourself. Literally. As yourself."
     yb "Yes, Tatti."
@@ -298,12 +298,18 @@ label chapter1:
     yb "Yes."
     el "It's time... for... me, now."
     yb "Tatti!"
-    el "Yisroëlik. Don't cry."
-    yb "Tatti! No! Stay!"
+    el "'Srulik. 'Srulik. Don't cry."
+    yb "Tatti..."
+    "Eliëzer smiled at his son for a moment that floated in the firmament between heaven and earth. One face bittersweet yet radiant, the other still streaming."
+    "Inside unto inside, deep unto deep."
+    el "I'll always be with you."
+    "Eliëzer kissed his son's cheeks and smiled again."
+    "Then, he closed his eyes and meditated on his final prayer."
     el "{i}Shema, Yisroëil... Adoinoi Eloiheinu... Adoinoi... echod....{/i}"
     yb "Tatti?"
-    yb "{b}TATTIII!!!{/b}"
-    show text "{i}{b}No!{/b} Nooooo!{/i}"
+    yb "Ta-"
+    "But then Yisröel's voice broke. He wanted to cry, but he remembered that his father didn't want him to."
+    yb "Ta..."
     pause 1.6
     hide text with slowDissolve
     "Little Yisroël carried those lessons with him for the rest of his life." 
@@ -323,7 +329,7 @@ label chapter1:
     # sz = Shlomo Zalmen
     sz "{i}Aleichem sholom!{/i} What are you doing in the forest alone?"
     yb "Just... well, wandering around."
-    sz "Wandering around? There are wild animals here. Aren't you afraid?"
+    sz "Wandering around? There are wild animals here. You're not afraid?"
     yb "No. Tatti told me not to be afraid of anything, except for {i}HaKodosh Boruch Hu.{/i}"
     sz "Oh? Where is your tatti?"
     yb "He -"
