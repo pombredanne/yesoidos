@@ -4,24 +4,23 @@ init:
     $ slowDissolve = Dissolve(4.0)
     $ slowFade = Fade(2.0,0,2.0)
 
-
     # Art
-    image bg forest1 = "Forest1.png"
-    image bg forest2 = "Forest2.png"
-    image bg flowerField1 = "FlowerField1.png"
+    image bg forest1 = "bg/Forest1.png"
+    image bg forest2 = "bg/Forest2.png"
+    image bg flowerField1 = "bg/FlowerField1.png"
     transform panFlowerField:
-        "FlowerField1.png"
+        "bg/FlowerField1.png"
         dissolve
         xalign 0.0
         linear 2.0 xalign 1.0
 
-    image bg forestCabin1 = "ForestCabin1.png"
-    image bg forestCreek1 = "ForestCreek1.png"
-    image bg forestClearing1 = "ForestClearing1.png"
-    image bg forestClearing2 = "ForestClearing2.png"
-    image bg forestPavedPath1 = "ForestPavedPath1.png"
-    image bg forestPathUp1 = "ForestPathUp1.png"
-    image bg soul1 = "soul1.png"
+    image bg forestCabin1 = "bg/ForestCabin1.png"
+    image bg forestCreek1 = "bg/ForestCreek1.png"
+    image bg forestClearing1 = "bg/ForestClearing1.png"
+    image bg forestClearing2 = "bg/ForestClearing2.png"
+    image bg forestPavedPath1 = "bg/ForestPavedPath1.png"
+    image bg forestPathUp1 = "bg/ForestPathUp1.png"
+    image bg soul1 = "bg/soul1.png"
 
     # Satan
     image satan = "satan.png"

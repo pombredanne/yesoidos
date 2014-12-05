@@ -78,12 +78,12 @@ init -1 python:
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "mainMenu.png",
+        mm_root = "bg/mainMenu.png",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "Forest1.png", #blackColor,
+        gm_root = "bg/Forest1.png", #blackColor,
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
