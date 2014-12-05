@@ -15,7 +15,7 @@ init -1 python:
 
     # config.developer is False by default
     config.developer = True
-    version = "0.5.0-beta"
+    version = "0.5.1-beta"
 
     ## These control the width and height of the screen.
 
