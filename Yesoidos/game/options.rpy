@@ -8,7 +8,6 @@
 ## appropriate.
 
 init -1 python:
-
     ## Should we enable the use of developer tools? This should be
     ## set to False before the game is released, so the user can't
     ## cheat using developer tools.
@@ -49,7 +48,6 @@ init -1 python:
     black = Solid(blackColor)
     theme.roundrect(
         # Color scheme: Dramatic Flesh
-                                    
         ## The color of an idle widget face.
         widget = "#BF7C51",
 
@@ -91,7 +89,7 @@ init -1 python:
 
         text_size = 36,
         small_text_size = 26, #file picker text size
-        )
+    )
 
 
     #########################################
