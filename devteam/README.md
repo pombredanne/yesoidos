@@ -8,7 +8,7 @@ Article links
 -------------
 
 * [Moshiach ben Yosef: Chabad.org](http://www.chabad.org/library/moshiach/article_cdo/aid/101747/jewish/Appendix-II.htm)
-* [Magic in the Talmud](http://www.daatemet.org.il/articles/article.cfm?article_id=17&lang=en)
+* [Magic in the Talmud](http://www.daatemet.org.il/articles/article.cfm?article_id=17&lang=en) - most of the sources and references are authentic, but should be checked, esp. considering the mission statement of the site
 
 Notable passages
 ----------------
